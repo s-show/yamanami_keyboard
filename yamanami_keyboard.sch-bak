@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:yamanami_keyboard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L arch_keyboard-rescue:GND-power #PWR024
+L power:GND #PWR024
 U 1 1 5F9E7EBA
 P 1625 5410
 F 0 "#PWR024" H 1625 5160 50  0001 C CNN
@@ -523,7 +522,7 @@ D+
 Text GLabel 885  3095 0    50   Input ~ 0
 D-
 $Comp
-L arch_keyboard-rescue:C_Small-Device C8
+L Device:C_Small C8
 U 1 1 5F9FAA28
 P 745 3595
 F 0 "C8" H 837 3641 50  0000 L CNN
@@ -536,7 +535,7 @@ $EndComp
 Wire Wire Line
 	745  3295 745  3495
 $Comp
-L arch_keyboard-rescue:GND-power #PWR013
+L power:GND #PWR013
 U 1 1 5F9FDC6A
 P 745 3695
 F 0 "#PWR013" H 745 3445 50  0001 C CNN
@@ -553,7 +552,7 @@ Wire Wire Line
 Text GLabel 3455 2860 0    50   Input ~ 0
 RESET
 $Comp
-L Device:R R1
+L yamanami_keyboard-rescue:R-Device R1
 U 1 1 5FA2159F
 P 4055 2665
 F 0 "R1" H 4125 2711 50  0000 L CNN
@@ -564,7 +563,7 @@ F 3 "~" H 4055 2665 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR09
+L yamanami_keyboard-rescue:+5V-power #PWR09
 U 1 1 5FA4509E
 P 4055 2515
 F 0 "#PWR09" H 4055 2365 50  0001 C CNN
@@ -575,7 +574,7 @@ F 3 "" H 4055 2515 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:GND-power #PWR012
+L power:GND #PWR012
 U 1 1 5FA4B185
 P 4055 2910
 F 0 "#PWR012" H 4055 2660 50  0001 C CNN
@@ -632,18 +631,7 @@ XTAL1
 Text GLabel 3450 1985 0    50   Input ~ 0
 XTAL2
 $Comp
-L arch_keyboard-rescue:Crystal_GND24-Device Y1
-U 1 1 5FA3AC28
-P 3760 1785
-F 0 "Y1" H 3880 1915 50  0000 L CNN
-F 1 "16MHz" H 3880 1725 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3760 1785 50  0001 C CNN
-F 3 "~" H 3760 1785 50  0001 C CNN
-	1    3760 1785
-	1    0    0    -1  
-$EndComp
-$Comp
-L arch_keyboard-rescue:C_Small-Device C1
+L Device:C_Small C1
 U 1 1 5FA41EDE
 P 4130 1585
 F 0 "C1" V 3901 1585 50  0000 C CNN
@@ -654,7 +642,7 @@ F 3 "~" H 4130 1585 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C2
+L Device:C_Small C2
 U 1 1 5FA433BB
 P 4130 1985
 F 0 "C2" V 4320 1985 50  0000 C CNN
@@ -675,7 +663,7 @@ Connection ~ 3760 1985
 Wire Wire Line
 	3760 1985 4030 1985
 $Comp
-L arch_keyboard-rescue:GND-power #PWR06
+L power:GND #PWR06
 U 1 1 5FA584C3
 P 3550 2105
 F 0 "#PWR06" H 3550 1855 50  0001 C CNN
@@ -701,21 +689,10 @@ Wire Wire Line
 Connection ~ 4340 1785
 Wire Wire Line
 	4340 1785 4340 1985
-$Comp
-L arch_keyboard-rescue:GND-power #PWR07
-U 1 1 5FA6DD25
-P 4340 2120
-F 0 "#PWR07" H 4340 1870 50  0001 C CNN
-F 1 "GND" H 4345 1947 50  0000 C CNN
-F 2 "" H 4340 2120 50  0001 C CNN
-F 3 "" H 4340 2120 50  0001 C CNN
-	1    4340 2120
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4340 1985 4340 2120
 $Comp
-L power:+5V #PWR020
+L yamanami_keyboard-rescue:+5V-power #PWR020
 U 1 1 5FA71C9A
 P 3730 4870
 F 0 "#PWR020" H 3730 4720 50  0001 C CNN
@@ -742,7 +719,7 @@ Wire Wire Line
 Wire Wire Line
 	4080 3955 4300 3955
 $Comp
-L power:+5V #PWR014
+L yamanami_keyboard-rescue:+5V-power #PWR014
 U 1 1 5FAB4379
 P 4300 3925
 F 0 "#PWR014" H 4300 3775 50  0001 C CNN
@@ -769,7 +746,7 @@ SCK
 Text GLabel 3475 3955 0    50   Input ~ 0
 MISO
 $Comp
-L arch_keyboard-rescue:Conn_02x03_Odd_Even-Connector_Generic J5
+L Connector_Generic:Conn_02x03_Odd_Even J5
 U 1 1 5FA54122
 P 3780 4055
 F 0 "J5" H 3830 4372 50  0000 C CNN
@@ -780,7 +757,7 @@ F 3 "~" H 3780 4055 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R2
+L Device:R R2
 U 1 1 5FBFA171
 P 5660 4290
 F 0 "R2" V 5580 4290 50  0000 C CNN
@@ -791,7 +768,7 @@ F 3 "~" H 5660 4290 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R3
+L Device:R R3
 U 1 1 5FBFC252
 P 5660 4890
 F 0 "R3" V 5570 4890 50  0000 C CNN
@@ -802,7 +779,7 @@ F 3 "~" H 5660 4890 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R6
+L Device:R R6
 U 1 1 5FC6689D
 P 6005 4590
 F 0 "R6" V 6080 4590 50  0000 C CNN
@@ -813,7 +790,7 @@ F 3 "~" H 6005 4590 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R5
+L Device:R R5
 U 1 1 5FC64F67
 P 6005 4490
 F 0 "R5" V 5930 4490 50  0000 C CNN
@@ -828,7 +805,7 @@ Wire Wire Line
 Wire Wire Line
 	885  2995 1075 2995
 $Comp
-L arch_keyboard-rescue:VCC-power #PWR015
+L power:VCC #PWR015
 U 1 1 5FC876D7
 P 5595 4080
 F 0 "#PWR015" H 5595 3930 50  0001 C CNN
@@ -841,7 +818,7 @@ $EndComp
 Wire Wire Line
 	5595 4080 5595 4090
 $Comp
-L arch_keyboard-rescue:GND-power #PWR019
+L power:GND #PWR019
 U 1 1 5FC99597
 P 2445 4485
 F 0 "#PWR019" H 2445 4235 50  0001 C CNN
@@ -876,7 +853,7 @@ NoConn ~ 2275 4695
 NoConn ~ 2275 4795
 NoConn ~ 2275 4895
 $Comp
-L arch_keyboard-rescue:GND-power #PWR025
+L power:GND #PWR025
 U 1 1 5FCFB752
 P 5200 5375
 F 0 "#PWR025" H 5200 5125 50  0001 C CNN
@@ -924,7 +901,7 @@ Wire Wire Line
 Wire Wire Line
 	6690 5080 6690 4850
 $Comp
-L arch_keyboard-rescue:GND-power #PWR022
+L power:GND #PWR022
 U 1 1 5FE28896
 P 6590 4850
 F 0 "#PWR022" H 6590 4600 50  0001 C CNN
@@ -938,11 +915,8 @@ NoConn ~ 2275 3295
 NoConn ~ 2275 3795
 NoConn ~ 2275 3895
 NoConn ~ 1075 2595
-Connection ~ 4340 2120
-Wire Wire Line
-	4340 2120 4340 2155
 $Comp
-L arch_keyboard-rescue:GND-power #PWR016
+L power:GND #PWR016
 U 1 1 5FAB61CC
 P 4300 4155
 F 0 "#PWR016" H 4300 3905 50  0001 C CNN
@@ -953,7 +927,7 @@ F 3 "" H 4300 4155 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:PWR_FLAG-power #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 5FB8A5E5
 P 5340 1925
 F 0 "#FLG02" H 5340 2000 50  0001 C CNN
@@ -964,7 +938,7 @@ F 3 "~" H 5340 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:VCC-power #PWR05
+L power:VCC #PWR05
 U 1 1 5FB9D710
 P 5340 1925
 F 0 "#PWR05" H 5340 1775 50  0001 C CNN
@@ -975,7 +949,7 @@ F 3 "" H 5340 1925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L arch_keyboard-rescue:GND-power #PWR02
+L power:GND #PWR02
 U 1 1 5FBA847B
 P 6185 1925
 F 0 "#PWR02" H 6185 1675 50  0001 C CNN
@@ -986,7 +960,7 @@ F 3 "" H 6185 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:PWR_FLAG-power #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 5FBA9444
 P 6185 1925
 F 0 "#FLG01" H 6185 2000 50  0001 C CNN
@@ -997,7 +971,7 @@ F 3 "~" H 6185 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C3
+L Device:C_Small C3
 U 1 1 5FBAAB28
 P 4915 2675
 F 0 "C3" V 5105 2675 50  0000 C CNN
@@ -1008,7 +982,7 @@ F 3 "~" H 4915 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C4
+L Device:C_Small C4
 U 1 1 5FBABB42
 P 5215 2675
 F 0 "C4" V 5405 2675 50  0000 C CNN
@@ -1019,7 +993,7 @@ F 3 "~" H 5215 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C5
+L Device:C_Small C5
 U 1 1 5FBAC997
 P 5510 2675
 F 0 "C5" V 5700 2675 50  0000 C CNN
@@ -1042,7 +1016,7 @@ Wire Wire Line
 	5510 2575 5510 2510
 Connection ~ 5510 2510
 $Comp
-L arch_keyboard-rescue:GND-power #PWR011
+L yamanami_keyboard-rescue:GND-power-arch_keyboard-rescue #PWR011
 U 1 1 5FBFE141
 P 5510 2890
 F 0 "#PWR011" H 5510 2640 50  0001 C CNN
@@ -1160,7 +1134,7 @@ D+_R
 Text GLabel 940  8225 0    50   Input ~ 0
 D-_R
 $Comp
-L arch_keyboard-rescue:C_Small-Device C18
+L Device:C_Small C18
 U 1 1 6009C997
 P 800 8725
 F 0 "C18" H 892 8771 50  0000 L CNN
@@ -1261,7 +1235,7 @@ XTAL1_R
 Text GLabel 3720 7435 0    50   Input ~ 0
 XTAL2_R
 $Comp
-L arch_keyboard-rescue:Crystal_GND24-Device Y2
+L Device:Crystal_GND24 Y2
 U 1 1 6009C9E8
 P 4030 7235
 F 0 "Y2" H 4150 7365 50  0000 L CNN
@@ -1272,7 +1246,7 @@ F 3 "~" H 4030 7235 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C9
+L Device:C_Small C9
 U 1 1 6009C9EE
 P 4400 7035
 F 0 "C9" V 4171 7035 50  0000 C CNN
@@ -1283,7 +1257,7 @@ F 3 "~" H 4400 7035 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C10
+L Device:C_Small C10
 U 1 1 6009C9F4
 P 4400 7435
 F 0 "C10" V 4590 7435 50  0000 C CNN
@@ -1330,19 +1304,6 @@ Wire Wire Line
 Connection ~ 4610 7235
 Wire Wire Line
 	4610 7235 4610 7435
-$Comp
-L power:GNDA #PWR033
-U 1 1 6009CA0F
-P 4610 7570
-F 0 "#PWR033" H 4610 7320 50  0001 C CNN
-F 1 "GNDA" H 4615 7397 50  0000 C CNN
-F 2 "" H 4610 7570 50  0001 C CNN
-F 3 "" H 4610 7570 50  0001 C CNN
-	1    4610 7570
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4610 7435 4610 7570
 Text GLabel 2415 8525 2    50   Input ~ 0
 DATA_R
 Wire Wire Line
@@ -1367,7 +1328,7 @@ MISO_R
 Text GLabel 2410 7325 2    50   Input ~ 0
 MOSI_R
 $Comp
-L power:+5VA #PWR044
+L yamanami_keyboard-rescue:+5VA-power #PWR044
 U 1 1 6009CA4A
 P 4620 9720
 F 0 "#PWR044" H 4620 9570 50  0001 C CNN
@@ -1446,9 +1407,6 @@ NoConn ~ 2330 10025
 NoConn ~ 2330 8425
 NoConn ~ 2330 8925
 NoConn ~ 1130 7725
-Connection ~ 4610 7570
-Wire Wire Line
-	4610 7570 4610 7605
 $Comp
 L power:GNDA #PWR045
 U 1 1 6009CAD7
@@ -1505,7 +1463,7 @@ F 3 "~" H 6430 7360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C11
+L Device:C_Small C11
 U 1 1 6009CAF7
 P 5195 8235
 F 0 "C11" V 5385 8235 50  0000 C CNN
@@ -1516,7 +1474,7 @@ F 3 "~" H 5195 8235 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C12
+L Device:C_Small C12
 U 1 1 6009CAFD
 P 5495 8235
 F 0 "C12" V 5685 8235 50  0000 C CNN
@@ -1527,7 +1485,7 @@ F 3 "~" H 5495 8235 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C13
+L Device:C_Small C13
 U 1 1 6009CB09
 P 5790 8235
 F 0 "C13" V 5980 8235 50  0000 C CNN
@@ -1550,7 +1508,7 @@ Wire Wire Line
 	5790 8135 5790 8070
 Connection ~ 5790 8070
 $Comp
-L power:GNDA #PWR038
+L yamanami_keyboard-rescue:GNDA-power #PWR038
 U 1 1 6009CB18
 P 5790 8450
 F 0 "#PWR038" H 5790 8200 50  0001 C CNN
@@ -1599,18 +1557,7 @@ F 3 "" H 7750 10985 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDC #PWR050
-U 1 1 6009CB39
-P 7330 10985
-F 0 "#PWR050" H 7330 10835 50  0001 C CNN
-F 1 "VDC" H 7455 11200 50  0000 C CNN
-F 2 "" H 7330 10985 50  0001 C CNN
-F 3 "" H 7330 10985 50  0001 C CNN
-	1    7330 10985
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VA #PWR035
+L yamanami_keyboard-rescue:+5VA-power #PWR035
 U 1 1 6009CB45
 P 5790 8030
 F 0 "#PWR035" H 5790 7880 50  0001 C CNN
@@ -1644,7 +1591,7 @@ Left Hand
 Text Notes 820  6170 0    157  Italic 31
 right Hand
 $Comp
-L Connector_Generic:Conn_01x01 J1
+L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J1
 U 1 1 60149BD0
 P 6910 1750
 F 0 "J1" H 7035 1820 50  0000 C CNN
@@ -1656,7 +1603,7 @@ F 3 "~" H 6910 1750 50  0001 C CNN
 $EndComp
 NoConn ~ 6710 1750
 $Comp
-L arch_keyboard-rescue:VCC-power #PWR018
+L power:VCC #PWR018
 U 1 1 601FE00F
 P 6590 4160
 F 0 "#PWR018" H 6590 4010 50  0001 C CNN
@@ -1860,8 +1807,6 @@ Wire Wire Line
 Wire Wire Line
 	10405 4060 9955 4060
 Connection ~ 10405 4060
-Wire Wire Line
-	9955 2585 9955 2590
 Wire Wire Line
 	10405 4765 10885 4765
 Connection ~ 10885 4765
@@ -2564,7 +2509,7 @@ row0_R
 Text GLabel 1050 7125 0    50   Input ~ 0
 RESET_R
 $Comp
-L power:+5V #PWR08
+L yamanami_keyboard-rescue:+5V-power #PWR08
 U 1 1 5FBAA4E9
 P 5510 2450
 F 0 "#PWR08" H 5510 2300 50  0001 C CNN
@@ -2745,7 +2690,7 @@ USB, ESD Protection,\nPolyfuse
 Text Notes 8625 6660 0    63   Italic 13
 Key_Matrix
 $Comp
-L Connector_Generic:Conn_01x01 J2
+L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J2
 U 1 1 606B7BCC
 P 6910 1915
 F 0 "J2" H 7035 1985 50  0000 C CNN
@@ -2756,7 +2701,7 @@ F 3 "~" H 6910 1915 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J3
+L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J3
 U 1 1 606B8246
 P 6910 2070
 F 0 "J3" H 7035 2140 50  0000 C CNN
@@ -2767,7 +2712,7 @@ F 3 "~" H 6910 2070 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J4
+L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J4
 U 1 1 606B882F
 P 6910 2225
 F 0 "J4" H 7035 2295 50  0000 C CNN
@@ -2803,7 +2748,7 @@ Wire Wire Line
 NoConn ~ 2275 3195
 NoConn ~ 2330 8325
 $Comp
-L arch_keyboard-rescue:GND-power #PWR021
+L power:GND #PWR021
 U 1 1 5FA726DE
 P 3580 5170
 F 0 "#PWR021" H 3580 4920 50  0001 C CNN
@@ -2836,7 +2781,7 @@ Wire Wire Line
 Wire Wire Line
 	3730 4905 3730 4870
 $Comp
-L power:+5VA #PWR0101
+L yamanami_keyboard-rescue:+5VA-power #PWR0101
 U 1 1 5FF231DB
 P 4165 10550
 F 0 "#PWR0101" H 4165 10400 50  0001 C CNN
@@ -2944,7 +2889,7 @@ Connection ~ 5200 5295
 Wire Wire Line
 	5200 5295 5365 5295
 $Comp
-L arch_keyboard-rescue:R-Device R9
+L Device:R R9
 U 1 1 605BF7D9
 P 6040 9795
 F 0 "R9" V 5960 9795 50  0000 C CNN
@@ -2955,7 +2900,7 @@ F 3 "~" H 6040 9795 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R12
+L Device:R R12
 U 1 1 605BF7DF
 P 6040 10395
 F 0 "R12" V 5950 10395 50  0000 C CNN
@@ -2966,7 +2911,7 @@ F 3 "~" H 6040 10395 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R11
+L Device:R R11
 U 1 1 605BF7E5
 P 6385 10095
 F 0 "R11" V 6460 10095 50  0000 C CNN
@@ -2977,7 +2922,7 @@ F 3 "~" H 6385 10095 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R10
+L Device:R R10
 U 1 1 605BF7EB
 P 6385 9995
 F 0 "R10" V 6310 9995 50  0000 C CNN
@@ -3152,7 +3097,7 @@ Wire Wire Line
 Text GLabel 6715 9995 2    50   Input ~ 0
 D-_R
 $Comp
-L Connector_Generic:Conn_01x01 J11
+L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J11
 U 1 1 5FBB7EE8
 P 7395 6520
 F 0 "J11" H 7520 6590 50  0000 C CNN
@@ -3164,7 +3109,7 @@ F 3 "~" H 7395 6520 50  0001 C CNN
 $EndComp
 NoConn ~ 7195 6520
 $Comp
-L Connector_Generic:Conn_01x01 J12
+L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J12
 U 1 1 5FBB7EEF
 P 7395 6685
 F 0 "J12" H 7520 6755 50  0000 C CNN
@@ -3175,7 +3120,7 @@ F 3 "~" H 7395 6685 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J13
+L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J13
 U 1 1 5FBB7EF5
 P 7395 6840
 F 0 "J13" H 7520 6910 50  0000 C CNN
@@ -3186,7 +3131,7 @@ F 3 "~" H 7395 6840 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J14
+L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J14
 U 1 1 5FBB7EFB
 P 7395 6995
 F 0 "J14" H 7520 7065 50  0000 C CNN
@@ -3239,7 +3184,7 @@ Wire Wire Line
 Wire Wire Line
 	6110 2510 6110 2575
 $Comp
-L arch_keyboard-rescue:C_Small-Device C7
+L Device:C_Small C7
 U 1 1 5FC282ED
 P 6110 2675
 F 0 "C7" V 6300 2675 50  0000 C CNN
@@ -3250,7 +3195,7 @@ F 3 "~" H 6110 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR046
+L yamanami_keyboard-rescue:VBUS-power #PWR046
 U 1 1 5FC65B7B
 P 6110 2510
 F 0 "#PWR046" H 6110 2360 50  0001 C CNN
@@ -3404,4 +3349,50 @@ Wire Wire Line
 	5510 2845 6110 2845
 Wire Wire Line
 	5790 8405 6390 8405
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5FA3AC28
+P 3760 1785
+F 0 "Y1" H 3880 1915 50  0000 L CNN
+F 1 "16MHz" H 3880 1725 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3760 1785 50  0001 C CNN
+F 3 "~" H 3760 1785 50  0001 C CNN
+	1    3760 1785
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDC #PWR050
+U 1 1 6009CB39
+P 7330 10985
+F 0 "#PWR050" H 7330 10835 50  0001 C CNN
+F 1 "VDC" H 7455 11200 50  0000 C CNN
+F 2 "" H 7330 10985 50  0001 C CNN
+F 3 "" H 7330 10985 50  0001 C CNN
+	1    7330 10985
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FA6DD25
+P 4340 2120
+F 0 "#PWR07" H 4340 1870 50  0001 C CNN
+F 1 "GND" H 4345 1947 50  0000 C CNN
+F 2 "" H 4340 2120 50  0001 C CNN
+F 3 "" H 4340 2120 50  0001 C CNN
+	1    4340 2120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4610 7435 4610 7605
+$Comp
+L power:GNDA #PWR033
+U 1 1 6009CA0F
+P 4610 7605
+F 0 "#PWR033" H 4610 7355 50  0001 C CNN
+F 1 "GNDA" H 4615 7432 50  0000 C CNN
+F 2 "" H 4610 7605 50  0001 C CNN
+F 3 "" H 4610 7605 50  0001 C CNN
+	1    4610 7605
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

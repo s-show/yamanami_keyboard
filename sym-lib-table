@@ -6,5 +6,5 @@
   (lib (name PRTR5V0U2X)(type Legacy)(uri "C:/Users/shouhei shimizu/Documents/yamanami_keyboard/library/PRTR5V0U2X/PRTR5V0U2X.lib")(options "")(descr "")(disabled))
   (lib (name arch_keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/yamanami_keyboard-rescue.lib)(options "")(descr "")(disabled))
   (lib (name akiduki_denshi)(type Legacy)(uri ${KIPRJMOD}/akiduki_denshi.lib)(options "")(descr "")(disabled))
-  (lib (name yamanami_keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/yamanami_keyboard-rescue.lib)(options "")(descr ""))
+  (lib (name yamanami_keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/yamanami_keyboard-rescue.lib)(options "")(descr "")(disabled))
 )

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L arch_keyboard-rescue:GND-power #PWR024
+L power:GND #PWR024
 U 1 1 5F9E7EBA
 P 1625 5410
 F 0 "#PWR024" H 1625 5160 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "~" H 13035 2440 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D6
+L Device:D_Small D6
 U 1 1 5F9FFE2E
 P 12985 2490
 F 0 "D6" V 13031 2411 50  0000 R CNN
@@ -190,7 +190,7 @@ F 3 "~" H 13035 3165 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D7
+L Device:D_Small D7
 U 1 1 5FA255D3
 P 10405 3215
 F 0 "D7" V 10451 3136 50  0000 R CNN
@@ -201,7 +201,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10405
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D8
+L Device:D_Small D8
 U 1 1 5FA255D9
 P 10885 3215
 F 0 "D8" V 10931 3136 50  0000 R CNN
@@ -212,7 +212,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10885
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D9
+L Device:D_Small D9
 U 1 1 5FA255DF
 P 11415 3215
 F 0 "D9" V 11461 3136 50  0000 R CNN
@@ -223,7 +223,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11415
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D10
+L Device:D_Small D10
 U 1 1 5FA255E5
 P 11935 3215
 F 0 "D10" V 11981 3136 50  0000 R CNN
@@ -234,7 +234,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11935
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D11
+L Device:D_Small D11
 U 1 1 5FA255EB
 P 12475 3215
 F 0 "D11" V 12521 3136 50  0000 R CNN
@@ -245,7 +245,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12475
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D12
+L Device:D_Small D12
 U 1 1 5FA255F1
 P 12985 3215
 F 0 "D12" V 13031 3136 50  0000 R CNN
@@ -322,7 +322,7 @@ F 3 "~" H 13035 3910 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D13
+L Device:D_Small D13
 U 1 1 5FA3293C
 P 10405 3960
 F 0 "D13" V 10451 3881 50  0000 R CNN
@@ -333,7 +333,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10405
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D14
+L Device:D_Small D14
 U 1 1 5FA32942
 P 10885 3960
 F 0 "D14" V 10931 3881 50  0000 R CNN
@@ -344,7 +344,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10885
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D15
+L Device:D_Small D15
 U 1 1 5FA32948
 P 11415 3960
 F 0 "D15" V 11461 3881 50  0000 R CNN
@@ -355,7 +355,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11415
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D16
+L Device:D_Small D16
 U 1 1 5FA3294E
 P 11935 3960
 F 0 "D16" V 11981 3881 50  0000 R CNN
@@ -366,7 +366,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11935
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D18
+L Device:D_Small D18
 U 1 1 5FA3295A
 P 12985 3960
 F 0 "D18" V 13031 3881 50  0000 R CNN
@@ -432,7 +432,7 @@ F 3 "~" H 13035 4615 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D19
+L Device:D_Small D19
 U 1 1 5FA3F32C
 P 10405 4665
 F 0 "D19" V 10451 4586 50  0000 R CNN
@@ -443,7 +443,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10405
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D20
+L Device:D_Small D20
 U 1 1 5FA3F332
 P 10885 4665
 F 0 "D20" V 10931 4586 50  0000 R CNN
@@ -454,7 +454,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10885
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D21
+L Device:D_Small D21
 U 1 1 5FA3F338
 P 11415 4665
 F 0 "D21" V 11461 4586 50  0000 R CNN
@@ -465,7 +465,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11415
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D22
+L Device:D_Small D22
 U 1 1 5FA3F33E
 P 11935 4665
 F 0 "D22" V 11981 4586 50  0000 R CNN
@@ -476,7 +476,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11935
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D23
+L Device:D_Small D23
 U 1 1 5FA3F344
 P 12475 4665
 F 0 "D23" V 12521 4586 50  0000 R CNN
@@ -487,7 +487,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12475
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D24
+L Device:D_Small D24
 U 1 1 5FA3F34A
 P 12985 4665
 F 0 "D24" V 13031 4586 50  0000 R CNN
@@ -522,7 +522,7 @@ D+
 Text GLabel 885  3095 0    50   Input ~ 0
 D-
 $Comp
-L arch_keyboard-rescue:C_Small-Device C8
+L Device:C_Small C8
 U 1 1 5F9FAA28
 P 745 3595
 F 0 "C8" H 837 3641 50  0000 L CNN
@@ -535,7 +535,7 @@ $EndComp
 Wire Wire Line
 	745  3295 745  3495
 $Comp
-L arch_keyboard-rescue:GND-power #PWR013
+L power:GND #PWR013
 U 1 1 5F9FDC6A
 P 745 3695
 F 0 "#PWR013" H 745 3445 50  0001 C CNN
@@ -574,7 +574,7 @@ F 3 "" H 4055 2515 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:GND-power #PWR012
+L power:GND #PWR012
 U 1 1 5FA4B185
 P 4055 2910
 F 0 "#PWR012" H 4055 2660 50  0001 C CNN
@@ -631,18 +631,7 @@ XTAL1
 Text GLabel 3450 1985 0    50   Input ~ 0
 XTAL2
 $Comp
-L arch_keyboard-rescue:Crystal_GND24-Device Y1
-U 1 1 5FA3AC28
-P 3760 1785
-F 0 "Y1" H 3880 1915 50  0000 L CNN
-F 1 "16MHz" H 3880 1725 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3760 1785 50  0001 C CNN
-F 3 "~" H 3760 1785 50  0001 C CNN
-	1    3760 1785
-	1    0    0    -1  
-$EndComp
-$Comp
-L arch_keyboard-rescue:C_Small-Device C1
+L Device:C_Small C1
 U 1 1 5FA41EDE
 P 4130 1585
 F 0 "C1" V 3901 1585 50  0000 C CNN
@@ -653,7 +642,7 @@ F 3 "~" H 4130 1585 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C2
+L Device:C_Small C2
 U 1 1 5FA433BB
 P 4130 1985
 F 0 "C2" V 4320 1985 50  0000 C CNN
@@ -674,7 +663,7 @@ Connection ~ 3760 1985
 Wire Wire Line
 	3760 1985 4030 1985
 $Comp
-L arch_keyboard-rescue:GND-power #PWR06
+L power:GND #PWR06
 U 1 1 5FA584C3
 P 3550 2105
 F 0 "#PWR06" H 3550 1855 50  0001 C CNN
@@ -700,17 +689,6 @@ Wire Wire Line
 Connection ~ 4340 1785
 Wire Wire Line
 	4340 1785 4340 1985
-$Comp
-L arch_keyboard-rescue:GND-power #PWR07
-U 1 1 5FA6DD25
-P 4340 2120
-F 0 "#PWR07" H 4340 1870 50  0001 C CNN
-F 1 "GND" H 4345 1947 50  0000 C CNN
-F 2 "" H 4340 2120 50  0001 C CNN
-F 3 "" H 4340 2120 50  0001 C CNN
-	1    4340 2120
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4340 1985 4340 2120
 $Comp
@@ -768,7 +746,7 @@ SCK
 Text GLabel 3475 3955 0    50   Input ~ 0
 MISO
 $Comp
-L arch_keyboard-rescue:Conn_02x03_Odd_Even-Connector_Generic J5
+L Connector_Generic:Conn_02x03_Odd_Even J5
 U 1 1 5FA54122
 P 3780 4055
 F 0 "J5" H 3830 4372 50  0000 C CNN
@@ -779,7 +757,7 @@ F 3 "~" H 3780 4055 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R2
+L Device:R R2
 U 1 1 5FBFA171
 P 5660 4290
 F 0 "R2" V 5580 4290 50  0000 C CNN
@@ -790,7 +768,7 @@ F 3 "~" H 5660 4290 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R3
+L Device:R R3
 U 1 1 5FBFC252
 P 5660 4890
 F 0 "R3" V 5570 4890 50  0000 C CNN
@@ -801,7 +779,7 @@ F 3 "~" H 5660 4890 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R6
+L Device:R R6
 U 1 1 5FC6689D
 P 6005 4590
 F 0 "R6" V 6080 4590 50  0000 C CNN
@@ -812,7 +790,7 @@ F 3 "~" H 6005 4590 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R5
+L Device:R R5
 U 1 1 5FC64F67
 P 6005 4490
 F 0 "R5" V 5930 4490 50  0000 C CNN
@@ -827,7 +805,7 @@ Wire Wire Line
 Wire Wire Line
 	885  2995 1075 2995
 $Comp
-L arch_keyboard-rescue:VCC-power #PWR015
+L power:VCC #PWR015
 U 1 1 5FC876D7
 P 5595 4080
 F 0 "#PWR015" H 5595 3930 50  0001 C CNN
@@ -840,7 +818,7 @@ $EndComp
 Wire Wire Line
 	5595 4080 5595 4090
 $Comp
-L arch_keyboard-rescue:GND-power #PWR019
+L power:GND #PWR019
 U 1 1 5FC99597
 P 2445 4485
 F 0 "#PWR019" H 2445 4235 50  0001 C CNN
@@ -875,7 +853,7 @@ NoConn ~ 2275 4695
 NoConn ~ 2275 4795
 NoConn ~ 2275 4895
 $Comp
-L arch_keyboard-rescue:GND-power #PWR025
+L power:GND #PWR025
 U 1 1 5FCFB752
 P 5200 5375
 F 0 "#PWR025" H 5200 5125 50  0001 C CNN
@@ -923,7 +901,7 @@ Wire Wire Line
 Wire Wire Line
 	6690 5080 6690 4850
 $Comp
-L arch_keyboard-rescue:GND-power #PWR022
+L power:GND #PWR022
 U 1 1 5FE28896
 P 6590 4850
 F 0 "#PWR022" H 6590 4600 50  0001 C CNN
@@ -937,11 +915,8 @@ NoConn ~ 2275 3295
 NoConn ~ 2275 3795
 NoConn ~ 2275 3895
 NoConn ~ 1075 2595
-Connection ~ 4340 2120
-Wire Wire Line
-	4340 2120 4340 2155
 $Comp
-L arch_keyboard-rescue:GND-power #PWR016
+L power:GND #PWR016
 U 1 1 5FAB61CC
 P 4300 4155
 F 0 "#PWR016" H 4300 3905 50  0001 C CNN
@@ -952,7 +927,7 @@ F 3 "" H 4300 4155 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:PWR_FLAG-power #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 5FB8A5E5
 P 5340 1925
 F 0 "#FLG02" H 5340 2000 50  0001 C CNN
@@ -963,7 +938,7 @@ F 3 "~" H 5340 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:VCC-power #PWR05
+L power:VCC #PWR05
 U 1 1 5FB9D710
 P 5340 1925
 F 0 "#PWR05" H 5340 1775 50  0001 C CNN
@@ -974,7 +949,7 @@ F 3 "" H 5340 1925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L arch_keyboard-rescue:GND-power #PWR02
+L power:GND #PWR02
 U 1 1 5FBA847B
 P 6185 1925
 F 0 "#PWR02" H 6185 1675 50  0001 C CNN
@@ -985,7 +960,7 @@ F 3 "" H 6185 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:PWR_FLAG-power #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 5FBA9444
 P 6185 1925
 F 0 "#FLG01" H 6185 2000 50  0001 C CNN
@@ -996,7 +971,7 @@ F 3 "~" H 6185 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C3
+L Device:C_Small C3
 U 1 1 5FBAAB28
 P 4915 2675
 F 0 "C3" V 5105 2675 50  0000 C CNN
@@ -1007,7 +982,7 @@ F 3 "~" H 4915 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C4
+L Device:C_Small C4
 U 1 1 5FBABB42
 P 5215 2675
 F 0 "C4" V 5405 2675 50  0000 C CNN
@@ -1018,7 +993,7 @@ F 3 "~" H 5215 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C5
+L Device:C_Small C5
 U 1 1 5FBAC997
 P 5510 2675
 F 0 "C5" V 5700 2675 50  0000 C CNN
@@ -1041,7 +1016,7 @@ Wire Wire Line
 	5510 2575 5510 2510
 Connection ~ 5510 2510
 $Comp
-L arch_keyboard-rescue:GND-power #PWR011
+L yamanami_keyboard-rescue:GND-power-arch_keyboard-rescue #PWR011
 U 1 1 5FBFE141
 P 5510 2890
 F 0 "#PWR011" H 5510 2640 50  0001 C CNN
@@ -1064,7 +1039,7 @@ Wire Wire Line
 	5510 2775 5510 2845
 Connection ~ 5510 2845
 $Comp
-L yamanami_keyboard-rescue:+5V-power #PWR023
+L power:+5V #PWR023
 U 1 1 5FABFA91
 P 7225 5490
 F 0 "#PWR023" H 7225 5340 50  0001 C CNN
@@ -1075,7 +1050,7 @@ F 3 "" H 7225 5490 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:Polyfuse-Device F1
+L Device:Polyfuse F1
 U 1 1 5FAC30FD
 P 6390 5550
 F 0 "F1" V 6200 5500 50  0000 L CNN
@@ -1086,7 +1061,7 @@ F 3 "~" H 6390 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:+5V-power #PWR01
+L power:+5V #PWR01
 U 1 1 5F9E8174
 P 1675 1665
 F 0 "#PWR01" H 1675 1515 50  0001 C CNN
@@ -1122,7 +1097,7 @@ $EndComp
 Wire Wire Line
 	4080 4155 4300 4155
 $Comp
-L yamanami_keyboard-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U3
+L MCU_Microchip_ATmega:ATmega32U4-AU U3
 U 1 1 6009C7FA
 P 1730 8625
 F 0 "U3" H 1730 8575 50  0000 C CNN
@@ -1133,7 +1108,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR047
+L power:GNDA #PWR047
 U 1 1 6009C800
 P 1680 10540
 F 0 "#PWR047" H 1680 10290 50  0001 C CNN
@@ -1159,7 +1134,7 @@ D+_R
 Text GLabel 940  8225 0    50   Input ~ 0
 D-_R
 $Comp
-L arch_keyboard-rescue:C_Small-Device C18
+L Device:C_Small C18
 U 1 1 6009C997
 P 800 8725
 F 0 "C18" H 892 8771 50  0000 L CNN
@@ -1172,7 +1147,7 @@ $EndComp
 Wire Wire Line
 	800  8425 800  8625
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR039
+L power:GNDA #PWR039
 U 1 1 6009C99E
 P 800 8825
 F 0 "#PWR039" H 800 8575 50  0001 C CNN
@@ -1198,7 +1173,7 @@ Wire Wire Line
 Text GLabel 3735 8400 0    50   Input ~ 0
 RESET_R
 $Comp
-L yamanami_keyboard-rescue:R-Device R7
+L Device:R R7
 U 1 1 6009C9AD
 P 4335 8200
 F 0 "R7" H 4405 8246 50  0000 L CNN
@@ -1209,7 +1184,7 @@ F 3 "~" H 4335 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR037
+L power:GNDA #PWR037
 U 1 1 6009C9BC
 P 4335 8450
 F 0 "#PWR037" H 4335 8200 50  0001 C CNN
@@ -1260,7 +1235,7 @@ XTAL1_R
 Text GLabel 3720 7435 0    50   Input ~ 0
 XTAL2_R
 $Comp
-L arch_keyboard-rescue:Crystal_GND24-Device Y2
+L Device:Crystal_GND24 Y2
 U 1 1 6009C9E8
 P 4030 7235
 F 0 "Y2" H 4150 7365 50  0000 L CNN
@@ -1271,7 +1246,7 @@ F 3 "~" H 4030 7235 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C9
+L Device:C_Small C9
 U 1 1 6009C9EE
 P 4400 7035
 F 0 "C9" V 4171 7035 50  0000 C CNN
@@ -1282,7 +1257,7 @@ F 3 "~" H 4400 7035 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C10
+L Device:C_Small C10
 U 1 1 6009C9F4
 P 4400 7435
 F 0 "C10" V 4590 7435 50  0000 C CNN
@@ -1303,7 +1278,7 @@ Connection ~ 4030 7435
 Wire Wire Line
 	4030 7435 4300 7435
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR032
+L power:GNDA #PWR032
 U 1 1 6009CA00
 P 3820 7555
 F 0 "#PWR032" H 3820 7305 50  0001 C CNN
@@ -1329,25 +1304,12 @@ Wire Wire Line
 Connection ~ 4610 7235
 Wire Wire Line
 	4610 7235 4610 7435
-$Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR033
-U 1 1 6009CA0F
-P 4610 7570
-F 0 "#PWR033" H 4610 7320 50  0001 C CNN
-F 1 "GNDA" H 4615 7397 50  0000 C CNN
-F 2 "" H 4610 7570 50  0001 C CNN
-F 3 "" H 4610 7570 50  0001 C CNN
-	1    4610 7570
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4610 7435 4610 7570
 Text GLabel 2415 8525 2    50   Input ~ 0
 DATA_R
 Wire Wire Line
 	2415 8525 2330 8525
 $Comp
-L yamanami_keyboard-rescue:VDC-power #PWR034
+L power:VDC #PWR034
 U 1 1 6009CA2B
 P 910 7895
 F 0 "#PWR034" H 910 7745 50  0001 C CNN
@@ -1393,7 +1355,7 @@ SCK_R
 Text GLabel 3790 9780 0    50   Input ~ 0
 MISO_R
 $Comp
-L yamanami_keyboard-rescue:Conn_02x03_Odd_Even-Connector_Generic J8
+L Connector_Generic:Conn_02x03_Odd_Even J8
 U 1 1 6009CA58
 P 4095 9880
 F 0 "J8" H 4145 10197 50  0000 C CNN
@@ -1408,7 +1370,7 @@ Wire Wire Line
 Wire Wire Line
 	940  8125 1130 8125
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR041
+L power:GNDA #PWR041
 U 1 1 6009CA92
 P 2500 9615
 F 0 "#PWR041" H 2500 9365 50  0001 C CNN
@@ -1445,11 +1407,8 @@ NoConn ~ 2330 10025
 NoConn ~ 2330 8425
 NoConn ~ 2330 8925
 NoConn ~ 1130 7725
-Connection ~ 4610 7570
-Wire Wire Line
-	4610 7570 4610 7605
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR045
+L power:GNDA #PWR045
 U 1 1 6009CAD7
 P 4615 9980
 F 0 "#PWR045" H 4615 9730 50  0001 C CNN
@@ -1460,7 +1419,7 @@ F 3 "" H 4615 9980 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:PWR_FLAG-power #FLG04
+L power:PWR_FLAG #FLG04
 U 1 1 6009CADF
 P 5555 7360
 F 0 "#FLG04" H 5555 7435 50  0001 C CNN
@@ -1471,7 +1430,7 @@ F 3 "~" H 5555 7360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:VDD-power #PWR031
+L power:VDD #PWR031
 U 1 1 6009CAE5
 P 5555 7360
 F 0 "#PWR031" H 5555 7210 50  0001 C CNN
@@ -1482,7 +1441,7 @@ F 3 "" H 5555 7360 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR030
+L power:GNDA #PWR030
 U 1 1 6009CAEB
 P 6430 7360
 F 0 "#PWR030" H 6430 7110 50  0001 C CNN
@@ -1493,7 +1452,7 @@ F 3 "" H 6430 7360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:PWR_FLAG-power #FLG03
+L power:PWR_FLAG #FLG03
 U 1 1 6009CAF1
 P 6430 7360
 F 0 "#FLG03" H 6430 7435 50  0001 C CNN
@@ -1504,7 +1463,7 @@ F 3 "~" H 6430 7360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C11
+L Device:C_Small C11
 U 1 1 6009CAF7
 P 5195 8235
 F 0 "C11" V 5385 8235 50  0000 C CNN
@@ -1515,7 +1474,7 @@ F 3 "~" H 5195 8235 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C12
+L Device:C_Small C12
 U 1 1 6009CAFD
 P 5495 8235
 F 0 "C12" V 5685 8235 50  0000 C CNN
@@ -1526,7 +1485,7 @@ F 3 "~" H 5495 8235 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L arch_keyboard-rescue:C_Small-Device C13
+L Device:C_Small C13
 U 1 1 6009CB09
 P 5790 8235
 F 0 "C13" V 5980 8235 50  0000 C CNN
@@ -1572,7 +1531,7 @@ Wire Wire Line
 	5790 8335 5790 8405
 Connection ~ 5790 8405
 $Comp
-L yamanami_keyboard-rescue:C_Small-Device C15
+L Device:C_Small C15
 U 1 1 6009CB26
 P 6390 8235
 F 0 "C15" V 6580 8235 50  0000 C CNN
@@ -1587,7 +1546,7 @@ Wire Wire Line
 Wire Wire Line
 	6390 8335 6390 8405
 $Comp
-L yamanami_keyboard-rescue:+5VA-power #PWR048
+L power:+5VA #PWR048
 U 1 1 6009CB33
 P 7750 10985
 F 0 "#PWR048" H 7750 10835 50  0001 C CNN
@@ -1595,17 +1554,6 @@ F 1 "+5VA" H 7765 11158 50  0000 C CNN
 F 2 "" H 7750 10985 50  0001 C CNN
 F 3 "" H 7750 10985 50  0001 C CNN
 	1    7750 10985
-	1    0    0    -1  
-$EndComp
-$Comp
-L yamanami_keyboard-rescue:VDC-power #PWR050
-U 1 1 6009CB39
-P 7330 10985
-F 0 "#PWR050" H 7330 10835 50  0001 C CNN
-F 1 "VDC" H 7455 11200 50  0000 C CNN
-F 2 "" H 7330 10985 50  0001 C CNN
-F 3 "" H 7330 10985 50  0001 C CNN
-	1    7330 10985
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1620,7 +1568,7 @@ F 3 "" H 5790 8030 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:+5VA-power #PWR027
+L power:+5VA #PWR027
 U 1 1 6009CB4B
 P 1730 6710
 F 0 "#PWR027" H 1730 6560 50  0001 C CNN
@@ -1643,7 +1591,7 @@ Left Hand
 Text Notes 820  6170 0    157  Italic 31
 right Hand
 $Comp
-L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J1
+L Connector_Generic:Conn_01x01 J1
 U 1 1 60149BD0
 P 6910 1750
 F 0 "J1" H 7035 1820 50  0000 C CNN
@@ -1655,7 +1603,7 @@ F 3 "~" H 6910 1750 50  0001 C CNN
 $EndComp
 NoConn ~ 6710 1750
 $Comp
-L arch_keyboard-rescue:VCC-power #PWR018
+L power:VCC #PWR018
 U 1 1 601FE00F
 P 6590 4160
 F 0 "#PWR018" H 6590 4010 50  0001 C CNN
@@ -1715,7 +1663,7 @@ F 3 "~" H 10935 4615 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D5
+L Device:D_Small D5
 U 1 1 5F9FEDD5
 P 12475 2490
 F 0 "D5" V 12521 2411 50  0000 R CNN
@@ -1726,7 +1674,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12475
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D4
+L Device:D_Small D4
 U 1 1 5F9FDFF1
 P 11935 2490
 F 0 "D4" V 11981 2411 50  0000 R CNN
@@ -1737,7 +1685,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11935
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D3
+L Device:D_Small D3
 U 1 1 5F9FCEBC
 P 11415 2490
 F 0 "D3" V 11461 2411 50  0000 R CNN
@@ -1748,7 +1696,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11415
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D2
+L Device:D_Small D2
 U 1 1 5F9FBA30
 P 10885 2490
 F 0 "D2" V 10931 2411 50  0000 R CNN
@@ -1759,7 +1707,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10885
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D1
+L Device:D_Small D1
 U 1 1 5F9F9085
 P 10405 2490
 F 0 "D1" V 10451 2411 50  0000 R CNN
@@ -1831,7 +1779,7 @@ Connection ~ 11935 4060
 Wire Wire Line
 	11935 4060 12475 4060
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D17
+L Device:D_Small D17
 U 1 1 5FA32954
 P 12475 3960
 F 0 "D17" V 12521 3881 50  0000 R CNN
@@ -1943,7 +1891,7 @@ F 3 "~" H 13720 7440 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D30
+L Device:D_Small D30
 U 1 1 61550E62
 P 13670 7490
 F 0 "D30" V 13716 7411 50  0000 R CNN
@@ -2020,7 +1968,7 @@ F 3 "~" H 13720 8165 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D31
+L Device:D_Small D31
 U 1 1 61550E8C
 P 11090 8215
 F 0 "D31" V 11136 8136 50  0000 R CNN
@@ -2031,7 +1979,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11090
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D32
+L Device:D_Small D32
 U 1 1 61550E92
 P 11570 8215
 F 0 "D32" V 11616 8136 50  0000 R CNN
@@ -2042,7 +1990,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11570
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D33
+L Device:D_Small D33
 U 1 1 61550E98
 P 12100 8215
 F 0 "D33" V 12146 8136 50  0000 R CNN
@@ -2053,7 +2001,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D34
+L Device:D_Small D34
 U 1 1 61550E9E
 P 12620 8215
 F 0 "D34" V 12666 8136 50  0000 R CNN
@@ -2064,7 +2012,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12620
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D35
+L Device:D_Small D35
 U 1 1 61550EA4
 P 13160 8215
 F 0 "D35" V 13206 8136 50  0000 R CNN
@@ -2075,7 +2023,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13160
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D36
+L Device:D_Small D36
 U 1 1 61550EAA
 P 13670 8215
 F 0 "D36" V 13716 8136 50  0000 R CNN
@@ -2152,7 +2100,7 @@ F 3 "~" H 13720 8910 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D37
+L Device:D_Small D37
 U 1 1 61550ED4
 P 11090 8960
 F 0 "D37" V 11136 8881 50  0000 R CNN
@@ -2163,7 +2111,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11090
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D38
+L Device:D_Small D38
 U 1 1 61550EDA
 P 11570 8960
 F 0 "D38" V 11616 8881 50  0000 R CNN
@@ -2174,7 +2122,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11570
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D39
+L Device:D_Small D39
 U 1 1 61550EE0
 P 12100 8960
 F 0 "D39" V 12146 8881 50  0000 R CNN
@@ -2185,7 +2133,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D40
+L Device:D_Small D40
 U 1 1 61550EE6
 P 12620 8960
 F 0 "D40" V 12666 8881 50  0000 R CNN
@@ -2196,7 +2144,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12620
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D42
+L Device:D_Small D42
 U 1 1 61550EEC
 P 13670 8960
 F 0 "D42" V 13716 8881 50  0000 R CNN
@@ -2262,7 +2210,7 @@ F 3 "~" H 13720 9615 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D43
+L Device:D_Small D43
 U 1 1 61550F10
 P 11090 9665
 F 0 "D43" V 11136 9586 50  0000 R CNN
@@ -2273,7 +2221,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11090
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D44
+L Device:D_Small D44
 U 1 1 61550F16
 P 11570 9665
 F 0 "D44" V 11616 9586 50  0000 R CNN
@@ -2284,7 +2232,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11570
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D45
+L Device:D_Small D45
 U 1 1 61550F1C
 P 12100 9665
 F 0 "D45" V 12146 9586 50  0000 R CNN
@@ -2295,7 +2243,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D46
+L Device:D_Small D46
 U 1 1 61550F22
 P 12620 9665
 F 0 "D46" V 12666 9586 50  0000 R CNN
@@ -2306,7 +2254,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12620
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D47
+L Device:D_Small D47
 U 1 1 61550F28
 P 13160 9665
 F 0 "D47" V 13206 9586 50  0000 R CNN
@@ -2317,7 +2265,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13160
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D48
+L Device:D_Small D48
 U 1 1 61550F2E
 P 13670 9665
 F 0 "D48" V 13716 9586 50  0000 R CNN
@@ -2395,7 +2343,7 @@ F 3 "~" H 11620 9615 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D29
+L Device:D_Small D29
 U 1 1 61550F68
 P 13160 7490
 F 0 "D29" V 13206 7411 50  0000 R CNN
@@ -2406,7 +2354,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13160
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D28
+L Device:D_Small D28
 U 1 1 61550F6E
 P 12620 7490
 F 0 "D28" V 12666 7411 50  0000 R CNN
@@ -2417,7 +2365,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12620
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D27
+L Device:D_Small D27
 U 1 1 61550F74
 P 12100 7490
 F 0 "D27" V 12146 7411 50  0000 R CNN
@@ -2428,7 +2376,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D26
+L Device:D_Small D26
 U 1 1 61550F7A
 P 11570 7490
 F 0 "D26" V 11616 7411 50  0000 R CNN
@@ -2439,7 +2387,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11570
 	0    -1   -1   0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D25
+L Device:D_Small D25
 U 1 1 61550F80
 P 11090 7490
 F 0 "D25" V 11136 7411 50  0000 R CNN
@@ -2511,7 +2459,7 @@ Connection ~ 12620 9060
 Wire Wire Line
 	12620 9060 13160 9060
 $Comp
-L yamanami_keyboard-rescue:D_Small-Device D41
+L Device:D_Small D41
 U 1 1 61550FB0
 P 13160 8960
 F 0 "D41" V 13206 8881 50  0000 R CNN
@@ -2572,7 +2520,7 @@ F 3 "" H 5510 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:+5VA-power #PWR036
+L power:+5VA #PWR036
 U 1 1 6180CB30
 P 4335 8050
 F 0 "#PWR036" H 4335 7900 50  0001 C CNN
@@ -2604,7 +2552,7 @@ Connection ~ 4335 8400
 Wire Wire Line
 	4335 8400 4335 8450
 $Comp
-L yamanami_keyboard-rescue:Polyfuse-Device F2
+L Device:Polyfuse F2
 U 1 1 6009CB3F
 P 6930 11060
 F 0 "F2" V 6750 11010 50  0000 L CNN
@@ -2632,7 +2580,7 @@ Wire Wire Line
 Wire Wire Line
 	1730 6755 1730 6710
 $Comp
-L yamanami_keyboard-rescue:VBUS-power #PWR010
+L power:VBUS #PWR010
 U 1 1 5FAA26F9
 P 810 2755
 F 0 "#PWR010" H 810 2605 50  0001 C CNN
@@ -2647,7 +2595,7 @@ Wire Wire Line
 Wire Wire Line
 	5510 2450 5510 2510
 $Comp
-L yamanami_keyboard-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U1
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 5F9E658F
 P 1675 3495
 F 0 "U1" H 1675 3445 50  0000 C CNN
@@ -2658,7 +2606,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:PWR_FLAG-power #PWR03
+L power:PWR_FLAG #PWR03
 U 1 1 5FB67C07
 P 4875 1925
 F 0 "#PWR03" H 4875 1775 50  0001 C CNN
@@ -2669,7 +2617,7 @@ F 3 "" H 4875 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:+5V-power #PWR04
+L power:+5V #PWR04
 U 1 1 5FB68F67
 P 4875 1925
 F 0 "#PWR04" H 4875 1775 50  0001 C CNN
@@ -2680,7 +2628,7 @@ F 3 "" H 4875 1925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:PWR_FLAG-power #PWR028
+L power:PWR_FLAG #PWR028
 U 1 1 5FB6C314
 P 5105 7360
 F 0 "#PWR028" H 5105 7210 50  0001 C CNN
@@ -2691,7 +2639,7 @@ F 3 "" H 5105 7360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:+5VA-power #PWR029
+L power:+5VA #PWR029
 U 1 1 5FB6C31A
 P 5105 7360
 F 0 "#PWR029" H 5105 7210 50  0001 C CNN
@@ -2742,7 +2690,7 @@ USB, ESD Protection,\nPolyfuse
 Text Notes 8625 6660 0    63   Italic 13
 Key_Matrix
 $Comp
-L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J2
+L Connector_Generic:Conn_01x01 J2
 U 1 1 606B7BCC
 P 6910 1915
 F 0 "J2" H 7035 1985 50  0000 C CNN
@@ -2753,7 +2701,7 @@ F 3 "~" H 6910 1915 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J3
+L Connector_Generic:Conn_01x01 J3
 U 1 1 606B8246
 P 6910 2070
 F 0 "J3" H 7035 2140 50  0000 C CNN
@@ -2764,7 +2712,7 @@ F 3 "~" H 6910 2070 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J4
+L Connector_Generic:Conn_01x01 J4
 U 1 1 606B882F
 P 6910 2225
 F 0 "J4" H 7035 2295 50  0000 C CNN
@@ -2800,7 +2748,7 @@ Wire Wire Line
 NoConn ~ 2275 3195
 NoConn ~ 2330 8325
 $Comp
-L arch_keyboard-rescue:GND-power #PWR021
+L power:GND #PWR021
 U 1 1 5FA726DE
 P 3580 5170
 F 0 "#PWR021" H 3580 4920 50  0001 C CNN
@@ -2811,7 +2759,7 @@ F 3 "" H 3580 5170 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:Conn_01x04-Connector_Generic J7
+L Connector_Generic:Conn_01x04 J7
 U 1 1 5FCCD2BD
 P 3315 5005
 F 0 "J7" H 3233 4580 50  0000 C CNN
@@ -2846,7 +2794,7 @@ $EndComp
 Text GLabel 4090 10785 2    50   Input ~ 0
 DATA_R
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR0102
+L power:GNDA #PWR0102
 U 1 1 5FF231E2
 P 4015 10850
 F 0 "#PWR0102" H 4015 10600 50  0001 C CNN
@@ -2857,7 +2805,7 @@ F 3 "" H 4015 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:Conn_01x04-Connector_Generic J10
+L Connector_Generic:Conn_01x04 J10
 U 1 1 5FF231E8
 P 3750 10685
 F 0 "J10" H 3668 10260 50  0000 C CNN
@@ -2941,7 +2889,7 @@ Connection ~ 5200 5295
 Wire Wire Line
 	5200 5295 5365 5295
 $Comp
-L arch_keyboard-rescue:R-Device R9
+L Device:R R9
 U 1 1 605BF7D9
 P 6040 9795
 F 0 "R9" V 5960 9795 50  0000 C CNN
@@ -2952,7 +2900,7 @@ F 3 "~" H 6040 9795 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R12
+L Device:R R12
 U 1 1 605BF7DF
 P 6040 10395
 F 0 "R12" V 5950 10395 50  0000 C CNN
@@ -2963,7 +2911,7 @@ F 3 "~" H 6040 10395 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R11
+L Device:R R11
 U 1 1 605BF7E5
 P 6385 10095
 F 0 "R11" V 6460 10095 50  0000 C CNN
@@ -2974,7 +2922,7 @@ F 3 "~" H 6385 10095 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L arch_keyboard-rescue:R-Device R10
+L Device:R R10
 U 1 1 605BF7EB
 P 6385 9995
 F 0 "R10" V 6310 9995 50  0000 C CNN
@@ -2985,7 +2933,7 @@ F 3 "~" H 6385 9995 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:VDD-power #PWR017
+L power:VDD #PWR017
 U 1 1 605BF7F1
 P 5975 9585
 F 0 "#PWR017" H 5975 9435 50  0001 C CNN
@@ -2998,7 +2946,7 @@ $EndComp
 Wire Wire Line
 	5975 9585 5975 9595
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR043
+L power:GNDA #PWR043
 U 1 1 605BF7F8
 P 5580 10880
 F 0 "#PWR043" H 5580 10630 50  0001 C CNN
@@ -3044,7 +2992,7 @@ Wire Wire Line
 Wire Wire Line
 	7155 10585 7155 10355
 $Comp
-L yamanami_keyboard-rescue:GNDA-power #PWR042
+L power:GNDA #PWR042
 U 1 1 605BF812
 P 7055 10355
 F 0 "#PWR042" H 7055 10105 50  0001 C CNN
@@ -3074,7 +3022,7 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5795 10
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:VDD-power #PWR040
+L power:VDD #PWR040
 U 1 1 605BF823
 P 7055 9685
 F 0 "#PWR040" H 7055 9535 50  0001 C CNN
@@ -3149,7 +3097,7 @@ Wire Wire Line
 Text GLabel 6715 9995 2    50   Input ~ 0
 D-_R
 $Comp
-L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J11
+L Connector_Generic:Conn_01x01 J11
 U 1 1 5FBB7EE8
 P 7395 6520
 F 0 "J11" H 7520 6590 50  0000 C CNN
@@ -3161,7 +3109,7 @@ F 3 "~" H 7395 6520 50  0001 C CNN
 $EndComp
 NoConn ~ 7195 6520
 $Comp
-L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J12
+L Connector_Generic:Conn_01x01 J12
 U 1 1 5FBB7EEF
 P 7395 6685
 F 0 "J12" H 7520 6755 50  0000 C CNN
@@ -3172,7 +3120,7 @@ F 3 "~" H 7395 6685 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J13
+L Connector_Generic:Conn_01x01 J13
 U 1 1 5FBB7EF5
 P 7395 6840
 F 0 "J13" H 7520 6910 50  0000 C CNN
@@ -3183,7 +3131,7 @@ F 3 "~" H 7395 6840 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:Conn_01x01-Connector_Generic J14
+L Connector_Generic:Conn_01x01 J14
 U 1 1 5FBB7EFB
 P 7395 6995
 F 0 "J14" H 7520 7065 50  0000 C CNN
@@ -3236,7 +3184,7 @@ Wire Wire Line
 Wire Wire Line
 	6110 2510 6110 2575
 $Comp
-L arch_keyboard-rescue:C_Small-Device C7
+L Device:C_Small C7
 U 1 1 5FC282ED
 P 6110 2675
 F 0 "C7" V 6300 2675 50  0000 C CNN
@@ -3262,7 +3210,7 @@ Wire Wire Line
 Wire Wire Line
 	910  7925 1130 7925
 $Comp
-L yamanami_keyboard-rescue:VDC-power #PWR049
+L power:VDC #PWR049
 U 1 1 5FD314A0
 P 6390 8070
 F 0 "#PWR049" H 6390 7920 50  0001 C CNN
@@ -3275,7 +3223,7 @@ $EndComp
 Text Notes 8680 11020 0    50   ~ 0
 RIGHT HAND SCHEMATIC\n\nPower net changes:\nVCC -> VDD\nVBUS -> VDC\nGND -> GNDA\n+5V -> +5VA\nto prevent kicad from complaining about no connections between halves
 $Comp
-L yamanami_keyboard-rescue:D_Schottky_Small-Device D49
+L Device:D_Schottky_Small D49
 U 1 1 5FD9F716
 P 7000 5550
 F 0 "D49" H 7000 5460 50  0000 C CNN
@@ -3303,7 +3251,7 @@ Wire Wire Line
 Wire Wire Line
 	7225 5550 7225 5490
 $Comp
-L yamanami_keyboard-rescue:VBUS-power #PWR0103
+L power:VBUS #PWR0103
 U 1 1 60050EFD
 P 6710 5485
 F 0 "#PWR0103" H 6710 5335 50  0001 C CNN
@@ -3319,7 +3267,7 @@ Connection ~ 6710 5550
 Wire Wire Line
 	6710 5550 6900 5550
 $Comp
-L yamanami_keyboard-rescue:PWR_FLAG-power #FLG0101
+L power:PWR_FLAG #FLG0101
 U 1 1 6016C06A
 P 5770 1925
 F 0 "#FLG0101" H 5770 2000 50  0001 C CNN
@@ -3330,7 +3278,7 @@ F 3 "~" H 5770 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:VBUS-power #PWR0104
+L power:VBUS #PWR0104
 U 1 1 6016DD70
 P 5770 1925
 F 0 "#PWR0104" H 5770 1775 50  0001 C CNN
@@ -3341,7 +3289,7 @@ F 3 "" H 5770 1925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:PWR_FLAG-power #FLG05
+L power:PWR_FLAG #FLG05
 U 1 1 602CAC0B
 P 5990 7360
 F 0 "#FLG05" H 5990 7435 50  0001 C CNN
@@ -3352,7 +3300,7 @@ F 3 "~" H 5990 7360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:VDC-power #PWR026
+L power:VDC #PWR026
 U 1 1 602CC08A
 P 5990 7360
 F 0 "#PWR026" H 5990 7210 50  0001 C CNN
@@ -3380,7 +3328,7 @@ Wire Wire Line
 Wire Wire Line
 	7330 11060 7330 10985
 $Comp
-L yamanami_keyboard-rescue:D_Schottky_Small-Device D50
+L Device:D_Schottky_Small D50
 U 1 1 604193A5
 P 7545 11060
 F 0 "D50" H 7545 10970 50  0000 C CNN
@@ -3401,4 +3349,50 @@ Wire Wire Line
 	5510 2845 6110 2845
 Wire Wire Line
 	5790 8405 6390 8405
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5FA3AC28
+P 3760 1785
+F 0 "Y1" H 3880 1915 50  0000 L CNN
+F 1 "16MHz" H 3880 1725 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3760 1785 50  0001 C CNN
+F 3 "~" H 3760 1785 50  0001 C CNN
+	1    3760 1785
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDC #PWR050
+U 1 1 6009CB39
+P 7330 10985
+F 0 "#PWR050" H 7330 10835 50  0001 C CNN
+F 1 "VDC" H 7455 11200 50  0000 C CNN
+F 2 "" H 7330 10985 50  0001 C CNN
+F 3 "" H 7330 10985 50  0001 C CNN
+	1    7330 10985
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FA6DD25
+P 4340 2120
+F 0 "#PWR07" H 4340 1870 50  0001 C CNN
+F 1 "GND" H 4345 1947 50  0000 C CNN
+F 2 "" H 4340 2120 50  0001 C CNN
+F 3 "" H 4340 2120 50  0001 C CNN
+	1    4340 2120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4610 7435 4610 7605
+$Comp
+L power:GNDA #PWR033
+U 1 1 6009CA0F
+P 4610 7605
+F 0 "#PWR033" H 4610 7355 50  0001 C CNN
+F 1 "GNDA" H 4615 7432 50  0000 C CNN
+F 2 "" H 4610 7605 50  0001 C CNN
+F 3 "" H 4610 7605 50  0001 C CNN
+	1    4610 7605
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
