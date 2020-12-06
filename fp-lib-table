@@ -3,5 +3,4 @@
   (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/library/PRTR5V0U2X/footprints.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri "C:/Users/shouhei shimizu/Documents/yamanami_keyboard/library/random-keyboard-parts.pretty")(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri "C:/Users/shouhei shimizu/Documents/yamanami_keyboard/library/Type-C.pretty")(options "")(descr ""))
-  (lib (name akiduki_denshi)(type KiCad)(uri ${KIPRJMOD}/akiduki_denshi.pretty)(options "")(descr "")(disabled))
 )
