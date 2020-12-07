@@ -298,23 +298,6 @@ X SBU1 9 100 -250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# arch_keyboard-rescue_R-Device
-#
-DEF arch_keyboard-rescue_R-Device R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "arch_keyboard-rescue_R-Device" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # kbd_SW_PUSH
 #
 DEF kbd_SW_PUSH SW 0 40 N N 1 F N
@@ -475,11 +458,11 @@ X VCC 4 300 50 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# yamanami_keyboard-rescue_+5V-power
+# yamanami_keyboard-rescue_+5V-power-yamanami_keyboard-rescue
 #
-DEF yamanami_keyboard-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF yamanami_keyboard-rescue_+5V-power-yamanami_keyboard-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "yamanami_keyboard-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "yamanami_keyboard-rescue_+5V-power-yamanami_keyboard-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -490,11 +473,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# yamanami_keyboard-rescue_+5VA-power
+# yamanami_keyboard-rescue_+5VA-power-yamanami_keyboard-rescue
 #
-DEF yamanami_keyboard-rescue_+5VA-power #PWR 0 0 Y Y 1 F P
+DEF yamanami_keyboard-rescue_+5VA-power-yamanami_keyboard-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "yamanami_keyboard-rescue_+5VA-power" 0 140 50 H V C CNN
+F1 "yamanami_keyboard-rescue_+5VA-power-yamanami_keyboard-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -505,11 +488,11 @@ X +5VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# yamanami_keyboard-rescue_GND-power-arch_keyboard-rescue
+# yamanami_keyboard-rescue_GND-power-arch_keyboard-rescue-yamanami_keyboard-rescue
 #
-DEF yamanami_keyboard-rescue_GND-power-arch_keyboard-rescue #PWR 0 0 Y Y 1 F P
+DEF yamanami_keyboard-rescue_GND-power-arch_keyboard-rescue-yamanami_keyboard-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "yamanami_keyboard-rescue_GND-power-arch_keyboard-rescue" 0 -150 50 H V C CNN
+F1 "yamanami_keyboard-rescue_GND-power-arch_keyboard-rescue-yamanami_keyboard-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -518,11 +501,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# yamanami_keyboard-rescue_GNDA-power
+# yamanami_keyboard-rescue_GNDA-power-yamanami_keyboard-rescue
 #
-DEF yamanami_keyboard-rescue_GNDA-power #PWR 0 0 Y Y 1 F P
+DEF yamanami_keyboard-rescue_GNDA-power-yamanami_keyboard-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "yamanami_keyboard-rescue_GNDA-power" 0 -150 50 H V C CNN
+F1 "yamanami_keyboard-rescue_GNDA-power-yamanami_keyboard-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -531,11 +514,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# yamanami_keyboard-rescue_R-Device
+# yamanami_keyboard-rescue_R-Device-arch_keyboard-rescue
 #
-DEF yamanami_keyboard-rescue_R-Device R 0 0 N Y 1 F N
+DEF yamanami_keyboard-rescue_R-Device-arch_keyboard-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "yamanami_keyboard-rescue_R-Device" 0 0 50 V V C CNN
+F1 "yamanami_keyboard-rescue_R-Device-arch_keyboard-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -548,11 +531,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# yamanami_keyboard-rescue_VBUS-power
+# yamanami_keyboard-rescue_R-Device-yamanami_keyboard-rescue
 #
-DEF yamanami_keyboard-rescue_VBUS-power #PWR 0 0 Y Y 1 F P
+DEF yamanami_keyboard-rescue_R-Device-yamanami_keyboard-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "yamanami_keyboard-rescue_R-Device-yamanami_keyboard-rescue" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# yamanami_keyboard-rescue_VBUS-power-yamanami_keyboard-rescue
+#
+DEF yamanami_keyboard-rescue_VBUS-power-yamanami_keyboard-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "yamanami_keyboard-rescue_VBUS-power" 0 150 50 H V C CNN
+F1 "yamanami_keyboard-rescue_VBUS-power-yamanami_keyboard-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

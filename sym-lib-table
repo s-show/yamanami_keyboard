@@ -3,4 +3,6 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "C:/Users/shouhei shimizu/Documents/yamanami_keyboard/library/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri "C:/Users/shouhei shimizu/Documents/yamanami_keyboard/library/Type-C.pretty/Type-C.lib")(options "")(descr ""))
   (lib (name kbd)(type Legacy)(uri "C:/Users/shouhei shimizu/Documents/yamanami_keyboard/library/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+  (lib (name is31fl3731)(type Legacy)(uri ${KIPRJMOD}/library/keyboard_parts.pretty/is31fl3731.lib)(options "")(descr ""))
+  (lib (name yamanami_keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/yamanami_keyboard-rescue.lib)(options "")(descr ""))
 )
