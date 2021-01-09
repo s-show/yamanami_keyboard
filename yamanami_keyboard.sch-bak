@@ -555,7 +555,7 @@ U 1 1 5FA2159F
 P 4160 2360
 F 0 "R1" H 4005 2450 50  0000 L CNN
 F 1 "10k" H 3975 2365 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4090 2360 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4090 2360 50  0001 C CNN
 F 3 "~" H 4160 2360 50  0001 C CNN
 	1    4160 2360
 	1    0    0    -1  
@@ -746,7 +746,7 @@ U 1 1 5FBFA171
 P 5660 4290
 F 0 "R2" V 5580 4290 50  0000 C CNN
 F 1 "5.1k" V 5660 4290 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5590 4290 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5590 4290 50  0001 C CNN
 F 3 "~" H 5660 4290 50  0001 C CNN
 	1    5660 4290
 	0    1    1    0   
@@ -757,7 +757,7 @@ U 1 1 5FBFC252
 P 5660 4890
 F 0 "R3" V 5570 4890 50  0000 C CNN
 F 1 "5.1k" V 5655 4890 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5590 4890 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5590 4890 50  0001 C CNN
 F 3 "~" H 5660 4890 50  0001 C CNN
 	1    5660 4890
 	0    -1   -1   0   
@@ -768,7 +768,7 @@ U 1 1 5FC6689D
 P 6760 4590
 F 0 "R6" V 6835 4590 50  0000 C CNN
 F 1 "22" V 6760 4590 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6690 4590 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6690 4590 50  0001 C CNN
 F 3 "~" H 6760 4590 50  0001 C CNN
 	1    6760 4590
 	0    1    1    0   
@@ -779,7 +779,7 @@ U 1 1 5FC64F67
 P 6760 4490
 F 0 "R5" V 6685 4490 50  0000 C CNN
 F 1 "22" V 6760 4490 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6690 4490 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6690 4490 50  0001 C CNN
 F 3 "~" H 6760 4490 50  0001 C CNN
 	1    6760 4490
 	0    1    1    0   
@@ -818,7 +818,7 @@ U 1 1 5FC9A64A
 P 2445 4295
 F 0 "R4" H 2515 4341 50  0000 L CNN
 F 1 "10k" H 2515 4250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2375 4295 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2375 4295 50  0001 C CNN
 F 3 "~" H 2445 4295 50  0001 C CNN
 	1    2445 4295
 	1    0    0    -1  
@@ -1133,7 +1133,7 @@ U 1 1 6009C9AD
 P 4120 7970
 F 0 "R7" H 4190 8016 50  0000 L CNN
 F 1 "10k" H 4190 7925 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4050 7970 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4050 7970 50  0001 C CNN
 F 3 "~" H 4120 7970 50  0001 C CNN
 	1    4120 7970
 	1    0    0    -1  
@@ -1331,7 +1331,7 @@ U 1 1 6009CA98
 P 2455 9525
 F 0 "R8" H 2525 9571 50  0000 L CNN
 F 1 "10k" H 2525 9480 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2385 9525 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2385 9525 50  0001 C CNN
 F 3 "~" H 2455 9525 50  0001 C CNN
 	1    2455 9525
 	1    0    0    -1  
@@ -1553,8 +1553,6 @@ Connection ~ 9640 2840
 Wire Wire Line
 	9640 2840 9640 3585
 Wire Wire Line
-	10120 1785 10120 2115
-Wire Wire Line
 	10650 2115 10650 1785
 Wire Wire Line
 	11170 2115 11170 1785
@@ -1567,18 +1565,12 @@ Wire Wire Line
 	10120 2115 10120 2840
 Connection ~ 10650 2115
 Connection ~ 10120 2840
-Wire Wire Line
-	11170 2115 11170 2840
 Connection ~ 11170 2115
-Wire Wire Line
-	11710 2115 11710 2840
 Connection ~ 11710 2115
 Connection ~ 12220 2115
 Connection ~ 10650 2840
 Connection ~ 11170 2840
 Connection ~ 11710 2840
-Wire Wire Line
-	11710 2840 11710 3240
 Connection ~ 12220 2840
 Wire Wire Line
 	12220 2115 12220 2840
@@ -1649,14 +1641,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9440 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10120 3240 10450 3240
-Wire Wire Line
-	10650 2515 10970 2515
-Wire Wire Line
-	10650 3240 10970 3240
-Wire Wire Line
-	11170 3240 11510 3240
-Wire Wire Line
 	8990 3240 9440 3240
 Wire Wire Line
 	8990 2515 9440 2515
@@ -1667,34 +1651,20 @@ Connection ~ 9920 2515
 Wire Wire Line
 	9920 2515 10450 2515
 Connection ~ 10450 2515
-Wire Wire Line
-	10450 2515 10650 2515
 Connection ~ 10970 2515
-Wire Wire Line
-	10970 2515 11510 2515
 Connection ~ 11510 2515
-Wire Wire Line
-	11510 2515 12020 2515
 Connection ~ 9440 3240
 Wire Wire Line
 	9440 3240 9920 3240
 Connection ~ 9920 3240
-Wire Wire Line
-	9920 3240 10120 3240
 Connection ~ 10450 3240
-Wire Wire Line
-	10450 3240 10650 3240
 Connection ~ 10970 3240
-Wire Wire Line
-	10970 3240 11170 3240
 Connection ~ 11510 3240
 Connection ~ 9640 3585
 Wire Wire Line
 	9640 3585 9640 4290
 Wire Wire Line
 	9440 3985 9920 3985
-Wire Wire Line
-	11710 3240 11710 3585
 Wire Wire Line
 	12220 2840 12220 3585
 Connection ~ 10120 3585
@@ -1931,16 +1901,6 @@ $EndComp
 NoConn ~ 6725 1275
 NoConn ~ 6725 1430
 NoConn ~ 6725 1585
-Wire Wire Line
-	10120 2840 10120 3240
-Wire Wire Line
-	10650 2840 10650 3240
-Wire Wire Line
-	11170 2840 11170 3240
-Wire Wire Line
-	11510 3240 11710 3240
-Wire Wire Line
-	10650 2115 10650 2515
 $Comp
 L power:GND #PWR021
 U 1 1 5FA726DE
@@ -2415,7 +2375,7 @@ U 1 1 6054B35B
 P 5950 9875
 F 0 "R9" V 5870 9875 50  0000 C CNN
 F 1 "5.1k" V 5950 9875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5880 9875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 9875 50  0001 C CNN
 F 3 "~" H 5950 9875 50  0001 C CNN
 	1    5950 9875
 	0    1    1    0   
@@ -2426,7 +2386,7 @@ U 1 1 6054B361
 P 5950 10475
 F 0 "R12" V 5860 10475 50  0000 C CNN
 F 1 "5.1k" V 5945 10475 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5880 10475 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 10475 50  0001 C CNN
 F 3 "~" H 5950 10475 50  0001 C CNN
 	1    5950 10475
 	0    -1   -1   0   
@@ -2437,7 +2397,7 @@ U 1 1 6054B367
 P 7050 10175
 F 0 "R11" V 7125 10175 50  0000 C CNN
 F 1 "22" V 7050 10175 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6980 10175 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 10175 50  0001 C CNN
 F 3 "~" H 7050 10175 50  0001 C CNN
 	1    7050 10175
 	0    1    1    0   
@@ -2448,7 +2408,7 @@ U 1 1 6054B36D
 P 7050 10075
 F 0 "R10" V 6975 10075 50  0000 C CNN
 F 1 "22" V 7050 10075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6980 10075 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 10075 50  0001 C CNN
 F 3 "~" H 7050 10075 50  0001 C CNN
 	1    7050 10075
 	0    1    1    0   
@@ -2681,151 +2641,12 @@ Wire Wire Line
 Wire Wire Line
 	7005 10645 7175 10645
 Connection ~ 7005 10645
-Text GLabel 2365 3195 2    50   Input ~ 0
-reserve1
-Text GLabel 2365 3295 2    50   Input ~ 0
-reserve2
-Wire Wire Line
-	2275 3195 2365 3195
-Wire Wire Line
-	2275 3295 2365 3295
-Text GLabel 2410 4795 2    50   Input ~ 0
-reserve3
-Text GLabel 2410 4895 2    50   Input ~ 0
-reserve4
-Wire Wire Line
-	2275 4795 2410 4795
-Wire Wire Line
-	2275 4895 2410 4895
 Text Notes 6620 850  0    63   Italic 13
 Mousebite
-Text GLabel 7090 2295 0    50   Input ~ 0
-reserve1
-Text GLabel 7090 2410 0    50   Input ~ 0
-reserve2
-Text GLabel 7090 2530 0    50   Input ~ 0
-reserve3
-Text GLabel 7090 2650 0    50   Input ~ 0
-reserve4
-$Comp
-L Connector_Generic:Conn_01x01 J15
-U 1 1 5FDB719B
-P 7290 2295
-F 0 "J15" H 7370 2337 50  0000 L CNN
-F 1 "Conn_01x01" H 7470 2300 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7290 2295 50  0001 C CNN
-F 3 "~" H 7290 2295 50  0001 C CNN
-	1    7290 2295
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J16
-U 1 1 5FDB83DF
-P 7290 2410
-F 0 "J16" H 7370 2452 50  0000 L CNN
-F 1 "Conn_01x01" H 7475 2415 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7290 2410 50  0001 C CNN
-F 3 "~" H 7290 2410 50  0001 C CNN
-	1    7290 2410
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J17
-U 1 1 5FDB868F
-P 7290 2530
-F 0 "J17" H 7370 2572 50  0000 L CNN
-F 1 "Conn_01x01" H 7475 2530 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7290 2530 50  0001 C CNN
-F 3 "~" H 7290 2530 50  0001 C CNN
-	1    7290 2530
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J18
-U 1 1 5FDB8934
-P 7290 2650
-F 0 "J18" H 7370 2692 50  0000 L CNN
-F 1 "Conn_01x01" H 7480 2650 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7290 2650 50  0001 C CNN
-F 3 "~" H 7290 2650 50  0001 C CNN
-	1    7290 2650
-	1    0    0    -1  
-$EndComp
-Connection ~ 10120 3240
-Wire Wire Line
-	10120 3240 10120 3585
-Connection ~ 10650 2515
-Wire Wire Line
-	10650 2515 10650 2840
-Connection ~ 10650 3240
-Wire Wire Line
-	10650 3240 10650 3585
-Connection ~ 11170 3240
-Wire Wire Line
-	11170 3240 11170 3585
-Connection ~ 11710 3240
-Wire Wire Line
-	11710 3240 12020 3240
 Wire Notes Line
 	8270 470  8270 11220
 Wire Notes Line
 	2990 3190 8270 3190
-Text Notes 6635 2090 0    63   Italic 13
-Reserve_pin
-Text GLabel 7190 8065 0    50   Input ~ 0
-reserve1_R
-Text GLabel 7190 8180 0    50   Input ~ 0
-reserve2_R
-Text GLabel 7190 8300 0    50   Input ~ 0
-reserve3_R
-Text GLabel 7190 8420 0    50   Input ~ 0
-reserve4_R
-$Comp
-L Connector_Generic:Conn_01x01 J19
-U 1 1 5FEFE70F
-P 7390 8065
-F 0 "J19" H 7470 8107 50  0000 L CNN
-F 1 "Conn_01x01" H 7570 8070 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7390 8065 50  0001 C CNN
-F 3 "~" H 7390 8065 50  0001 C CNN
-	1    7390 8065
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J20
-U 1 1 5FEFE715
-P 7390 8180
-F 0 "J20" H 7470 8222 50  0000 L CNN
-F 1 "Conn_01x01" H 7575 8185 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7390 8180 50  0001 C CNN
-F 3 "~" H 7390 8180 50  0001 C CNN
-	1    7390 8180
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J21
-U 1 1 5FEFE71B
-P 7390 8300
-F 0 "J21" H 7470 8342 50  0000 L CNN
-F 1 "Conn_01x01" H 7575 8300 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7390 8300 50  0001 C CNN
-F 3 "~" H 7390 8300 50  0001 C CNN
-	1    7390 8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J22
-U 1 1 5FEFE721
-P 7390 8420
-F 0 "J22" H 7470 8462 50  0000 L CNN
-F 1 "Conn_01x01" H 7580 8420 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7390 8420 50  0001 C CNN
-F 3 "~" H 7390 8420 50  0001 C CNN
-	1    7390 8420
-	1    0    0    -1  
-$EndComp
-Text Notes 6735 7860 0    63   Italic 13
-Reserve_pin
 Wire Notes Line
 	2990 8850 8270 8850
 Wire Notes Line
@@ -2840,24 +2661,7 @@ Wire Notes Line
 	2990 3190 2990 5875
 Wire Notes Line
 	2990 8850 2990 11220
-Text GLabel 2380 8425 2    50   Input ~ 0
-reserve1_R
-Text GLabel 2380 8525 2    50   Input ~ 0
-reserve2_R
-Wire Wire Line
-	2285 8425 2380 8425
-Wire Wire Line
-	2285 8525 2380 8525
-Text GLabel 2455 10025 2    50   Input ~ 0
-reserve3_R
-Text GLabel 2455 10125 2    50   Input ~ 0
-reserve4_R
-Wire Wire Line
-	2285 10025 2455 10025
-Wire Wire Line
-	2285 10125 2455 10125
-NoConn ~ 2275 3795
-NoConn ~ 2275 3895
+NoConn ~ 2275 3195
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX25
 U 1 1 61550E3E
@@ -3360,8 +3164,6 @@ Connection ~ 12185 7020
 Connection ~ 10615 7745
 Connection ~ 11135 7745
 Connection ~ 11675 7745
-Wire Wire Line
-	11675 7745 11675 8145
 Connection ~ 12185 7745
 Wire Wire Line
 	12185 7020 12185 7745
@@ -3432,14 +3234,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9405 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10085 8145 10415 8145
-Wire Wire Line
-	10615 7420 10935 7420
-Wire Wire Line
-	10615 8145 10935 8145
-Wire Wire Line
-	11135 8145 11475 8145
-Wire Wire Line
 	8955 8145 9405 8145
 Wire Wire Line
 	8955 7420 9405 7420
@@ -3450,8 +3244,6 @@ Connection ~ 9885 7420
 Wire Wire Line
 	9885 7420 10415 7420
 Connection ~ 10415 7420
-Wire Wire Line
-	10415 7420 10615 7420
 Connection ~ 10935 7420
 Wire Wire Line
 	10935 7420 11475 7420
@@ -3462,22 +3254,14 @@ Connection ~ 9405 8145
 Wire Wire Line
 	9405 8145 9885 8145
 Connection ~ 9885 8145
-Wire Wire Line
-	9885 8145 10085 8145
 Connection ~ 10415 8145
-Wire Wire Line
-	10415 8145 10615 8145
 Connection ~ 10935 8145
-Wire Wire Line
-	10935 8145 11135 8145
 Connection ~ 11475 8145
 Connection ~ 9605 8490
 Wire Wire Line
 	9605 8490 9605 9195
 Wire Wire Line
 	9405 8890 9885 8890
-Wire Wire Line
-	11675 8145 11675 8490
 Wire Wire Line
 	12185 7745 12185 8490
 Connection ~ 10085 8490
@@ -3542,29 +3326,63 @@ Text GLabel 8955 7420 0    50   Input ~ 0
 row0_R
 Text Notes 8630 6710 0    63   Italic 13
 Key_Matrix
+NoConn ~ 2275 4895
+NoConn ~ 2275 4795
+NoConn ~ 2285 10125
+NoConn ~ 2285 10025
+NoConn ~ 2275 3295
 Wire Wire Line
-	10085 7745 10085 8145
+	10120 1785 10120 2115
 Wire Wire Line
-	10085 8145 10085 8490
-Connection ~ 10085 8145
+	10450 2515 10970 2515
 Wire Wire Line
-	10615 7020 10615 7420
+	10650 2115 10650 2840
 Wire Wire Line
-	10615 7420 10615 7745
-Connection ~ 10615 7420
+	11170 2115 11170 2840
 Wire Wire Line
-	10615 7745 10615 8145
+	10970 2515 11510 2515
 Wire Wire Line
-	10615 8145 10615 8490
-Connection ~ 10615 8145
+	11710 2115 11710 2840
 Wire Wire Line
-	11135 7745 11135 8145
+	11510 2515 12020 2515
 Wire Wire Line
-	11135 8145 11135 8490
-Connection ~ 11135 8145
+	9920 3240 10450 3240
 Wire Wire Line
-	11475 8145 11675 8145
+	10120 2840 10120 3585
 Wire Wire Line
-	11675 8145 11985 8145
-Connection ~ 11675 8145
+	10450 3240 10970 3240
+Wire Wire Line
+	10650 2840 10650 3585
+Wire Wire Line
+	10970 3240 11510 3240
+Wire Wire Line
+	11170 2840 11170 3585
+Wire Wire Line
+	11710 2840 11710 3585
+Wire Wire Line
+	11510 3240 12020 3240
+Wire Wire Line
+	10415 7420 10935 7420
+Wire Wire Line
+	10615 7020 10615 7745
+Wire Wire Line
+	9885 8145 10415 8145
+Wire Wire Line
+	10085 7745 10085 8490
+Wire Wire Line
+	10415 8145 10935 8145
+Wire Wire Line
+	10615 7745 10615 8490
+Wire Wire Line
+	10935 8145 11475 8145
+Wire Wire Line
+	11135 7745 11135 8490
+Wire Wire Line
+	11675 7745 11675 8490
+Wire Wire Line
+	11475 8145 11985 8145
+NoConn ~ 2285 8525
+NoConn ~ 2285 8425
+NoConn ~ 2275 3795
+NoConn ~ 2275 3895
 $EndSCHEMATC

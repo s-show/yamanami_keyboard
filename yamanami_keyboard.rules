@@ -44,10 +44,10 @@
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
   (via 
-    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" default
   )
   (via 
-    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" default
   )
   (via_rule
     default "Via[0-1]_800:400_um"
@@ -69,24 +69,22 @@
     )
   )
   (class "kicad_default"
-    XTAL1 XTAL2 "XTAL1_R" "XTAL2_R" "Net-(D1-Pad2)" row0 "Net-(D2-Pad2)" SCK
-    "Net-(D3-Pad2)" MOSI "Net-(D4-Pad2)" MISO "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)"
-    "Net-(D9-Pad2)" "row0_R" "Net-(D10-Pad2)" "SCK_R" "MOSI_R" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "MISO_R"
-    "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)"
-    "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)"
-    "Net-(D29-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)" "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)" "Net-(D36-Pad2)"
-    "Net-(D37-Pad2)" "Net-(D38-Pad2)" "Net-(D39-Pad2)" "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)" "Net-(D44-Pad2)"
-    "Net-(D45-Pad2)" "Net-(D46-Pad2)" "Net-(D47-Pad2)" "Net-(D48-Pad2)" VCC VDD RESET "RESET_R"
-    col0 col1 "col0_R" col2 "col1_R" col3 "col2_R" col4
-    "col3_R" col5 "col4_R" "col5_R" "D-" D+ "D-_R" "D+_R"
-    "Net-(U1-Pad42)" "Net-(U1-Pad41)" "Net-(U1-Pad40)" "Net-(U1-Pad39)" "Net-(U1-Pad38)" "Net-(U1-Pad37)" "Net-(U1-Pad36)" "Net-(U1-Pad27)"
-    "Net-(U1-Pad26)" DATA "Net-(U1-Pad19)" "Net-(U1-Pad1)" "DATA_R" "Net-(C8-Pad1)" "Net-(C18-Pad1)" "Net-(R4-Pad1)"
-    "Net-(R8-Pad1)" "Net-(U3-Pad1)" "Net-(U3-Pad19)" "Net-(U3-Pad26)" "Net-(U3-Pad36)" "Net-(U3-Pad37)" "Net-(U3-Pad38)" "Net-(U3-Pad39)"
-    "Net-(U3-Pad40)" "Net-(U3-Pad41)" "Net-(U3-Pad42)" "Net-(U1-Pad18)" "Net-(U3-Pad18)" "Net-(J6-Pad3)" "Net-(J6-Pad10)" "Net-(J6-Pad4)"
+    XTAL1 XTAL2 "XTAL1_R" "XTAL2_R" "Net-(D1-Pad2)" "Net-(D2-Pad2)" SCK "Net-(D3-Pad2)"
+    MOSI "Net-(D4-Pad2)" MISO "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)"
+    "Net-(D10-Pad2)" "SCK_R" "MOSI_R" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "MISO_R" "Net-(D13-Pad2)" "Net-(D14-Pad2)"
+    "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)"
+    "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D30-Pad2)"
+    "Net-(D31-Pad2)" "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)" "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)"
+    "Net-(D39-Pad2)" "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)" "Net-(D44-Pad2)" "Net-(D45-Pad2)" "Net-(D46-Pad2)"
+    "Net-(D47-Pad2)" "Net-(D48-Pad2)" RESET "RESET_R" col0 col1 "col0_R" "col1_R"
+    col5 "col5_R" "D-" D+ "D-_R" "D+_R" "Net-(U1-Pad42)" "Net-(U1-Pad41)"
+    "Net-(U1-Pad40)" "Net-(U1-Pad39)" "Net-(U1-Pad38)" "Net-(U1-Pad37)" "Net-(U1-Pad36)" DATA "Net-(U1-Pad1)" "DATA_R"
+    "Net-(C8-Pad1)" "Net-(C18-Pad1)" "Net-(R4-Pad1)" "Net-(R8-Pad1)" "Net-(U3-Pad1)" "Net-(U3-Pad26)" "Net-(U3-Pad36)" "Net-(U3-Pad37)"
+    "Net-(U3-Pad38)" "Net-(U3-Pad39)" "Net-(U3-Pad40)" "Net-(U3-Pad41)" "Net-(U3-Pad42)" "Net-(J6-Pad3)" "Net-(J6-Pad10)" "Net-(J6-Pad4)"
     "Net-(J6-Pad9)" "Net-(J6-Pad5)" "Net-(J6-Pad6)" "Net-(J7-Pad4)" "Net-(J9-Pad3)" "Net-(J9-Pad10)" "Net-(J9-Pad4)" "Net-(J9-Pad9)"
-    "Net-(J9-Pad5)" "Net-(J9-Pad6)" "Net-(J10-Pad4)" row1 row2 row3 "row1_R" "row2_R"
-    "row3_R" "Net-(U3-Pad12)" VBUS VDC
-    (clearance_class "kicad_default")
+    "Net-(J9-Pad5)" "Net-(J9-Pad6)" "Net-(J10-Pad4)" row2 row3 "row2_R" "row3_R" "Net-(U3-Pad12)"
+    reserve1 reserve2 "reserve1_R" "reserve2_R" "Net-(U1-Pad18)" "Net-(U1-Pad19)"
+    (clearance_class default)
     (via_rule kicad_default)
     (rule
       (width 254.0)
@@ -96,8 +94,8 @@
     )
   )
   (class Power
-    GND +5V +5VA GNDA
-    (clearance_class Power)
+    GND +5V +5VA GNDA VCC VDD VBUS VDC
+    (clearance_class default)
     (via_rule Power)
     (rule
       (width 381.0)
