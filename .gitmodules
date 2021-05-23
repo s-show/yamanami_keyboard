@@ -1,18 +1,21 @@
-[submodule ".\\library\\MX_Alps_Hybrid\\"]
-	path = .\\library\\MX_Alps_Hybrid\\
+[submodule "library/MX_Alps_Hybrid"]
+	path = library/MX_Alps_Hybrid
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid.git
-[submodule ".\\library\\Type-C.pretty\\"]
-	path = .\\library\\Type-C.pretty\\
+[submodule "library/Type-C.pretty"]
+	path = library/Type-C.pretty
 	url = https://github.com/ai03-2725/Type-C.pretty.git
-[submodule ".\\library\\random-keyboard-parts.pretty\\"]
-	path = .\\library\\random-keyboard-parts.pretty\\
+[submodule "library/random-keyboard-parts.pretty"]
+	path = library/random-keyboard-parts.pretty
 	url = https://github.com/ai03-2725/random-keyboard-parts.pretty.git
-[submodule ".\\library\\kbd\\"]
-	path = .\\library\\kbd\\
+[submodule "library/kbd"]
+	path = library/kbd
 	url = https://github.com/foostan/kbd.git
-[submodule ".\\library\\keyboard_parts.pretty\\"]
-	path = .\\library\\keyboard_parts.pretty\\
+[submodule "library/keyboard_parts.pretty"]
+	path = library/keyboard_parts.pretty
 	url = https://github.com/colemarkham/keyboard_parts.pretty.git
 [submodule "library/LED_kicad_footprints"]
 	path = library/LED_kicad_footprints
 	url = https://github.com/takashiski/LED_kicad_footprints.git
+[submodule "library/keyswitches.pretty"]
+	path = library/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty.git
