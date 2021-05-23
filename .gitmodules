@@ -13,3 +13,6 @@
 [submodule ".\\library\\keyboard_parts.pretty\\"]
 	path = .\\library\\keyboard_parts.pretty\\
 	url = https://github.com/colemarkham/keyboard_parts.pretty.git
+[submodule "library/LED_kicad_footprints"]
+	path = library/LED_kicad_footprints
+	url = https://github.com/takashiski/LED_kicad_footprints.git
