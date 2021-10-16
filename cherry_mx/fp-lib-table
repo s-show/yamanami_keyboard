@@ -1,7 +1,8 @@
 (fp_lib_table
-  (lib (name MX_Only)(type KiCad)(uri "C:/Users/shouhei shimizu/Documents/keyboard/yamanami_keyboard/library/MX_Alps_Hybrid/MX_Only.pretty")(options "")(descr ""))
-  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/library/PRTR5V0U2X/footprints.pretty)(options "")(descr ""))
-  (lib (name random-keyboard-parts)(type KiCad)(uri "C:/Users/shouhei shimizu/Documents/keyboard/yamanami_keyboard/library/random-keyboard-parts.pretty")(options "")(descr ""))
-  (lib (name Type-C)(type KiCad)(uri "C:/Users/shouhei shimizu/Documents/keyboard/yamanami_keyboard/library/Type-C.pretty")(options "")(descr ""))
-  (lib (name footprints_ul)(type KiCad)(uri ${KIPRJMOD}/library/ul_PRTR5V0U2X/KiCAD/2021-01-30_14-29-19/footprints.pretty)(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/../library/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/../library/PRTR5V0U2X/footprints.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/../library/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/../library/Type-C.pretty)(options "")(descr ""))
+  (lib (name footprints_ul)(type KiCad)(uri ${KIPRJMOD}/../library/ul_PRTR5V0U2X)(options "")(descr ""))
+  (lib (name icon)(type KiCad)(uri ${KIPRJMOD}/../icon)(options "")(descr ""))
 )

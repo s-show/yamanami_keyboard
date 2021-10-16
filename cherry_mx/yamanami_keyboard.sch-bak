@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:yamanami_keyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -550,7 +551,7 @@ RESET
 Wire Wire Line
 	995  1995 1075 1995
 $Comp
-L yamanami_keyboard-rescue:R-Device-yamanami_keyboard-rescue R1
+L Device:R R1
 U 1 1 5FA2159F
 P 4160 2360
 F 0 "R1" H 4005 2450 50  0000 L CNN
@@ -561,7 +562,7 @@ F 3 "~" H 4160 2360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:+5V-power-yamanami_keyboard-rescue #PWR09
+L power:+5V #PWR09
 U 1 1 5FA4509E
 P 4160 2210
 F 0 "#PWR09" H 4160 2060 50  0001 C CNN
@@ -676,7 +677,7 @@ Wire Wire Line
 Wire Wire Line
 	4320 1560 4320 1695
 $Comp
-L yamanami_keyboard-rescue:+5V-power-yamanami_keyboard-rescue #PWR020
+L power:+5V #PWR020
 U 1 1 5FA71C9A
 P 3730 4870
 F 0 "#PWR020" H 3730 4720 50  0001 C CNN
@@ -703,7 +704,7 @@ Wire Wire Line
 Wire Wire Line
 	4080 3955 4300 3955
 $Comp
-L yamanami_keyboard-rescue:+5V-power-yamanami_keyboard-rescue #PWR014
+L power:+5V #PWR014
 U 1 1 5FAB4379
 P 4300 3925
 F 0 "#PWR014" H 4300 3775 50  0001 C CNN
@@ -750,17 +751,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 5590 4290 50  0001 C CNN
 F 3 "~" H 5660 4290 50  0001 C CNN
 	1    5660 4290
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5FBFC252
-P 5660 4890
-F 0 "R3" V 5570 4890 50  0000 C CNN
-F 1 "5.1k" V 5655 4890 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5590 4890 50  0001 C CNN
-F 3 "~" H 5660 4890 50  0001 C CNN
-	1    5660 4890
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R6
@@ -813,7 +803,7 @@ F 3 "" H 2445 4485 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:R-Device-arch_keyboard-rescue R4
+L Device:R R4
 U 1 1 5FC9A64A
 P 2445 4295
 F 0 "R4" H 2515 4341 50  0000 L CNN
@@ -972,17 +962,6 @@ Wire Wire Line
 Wire Wire Line
 	5510 2575 5510 2510
 Connection ~ 5510 2510
-$Comp
-L yamanami_keyboard-rescue:GND-power-arch_keyboard-rescue-yamanami_keyboard-rescue #PWR011
-U 1 1 5FBFE141
-P 5510 2890
-F 0 "#PWR011" H 5510 2640 50  0001 C CNN
-F 1 "GND" H 5515 2717 50  0000 C CNN
-F 2 "" H 5510 2890 50  0001 C CNN
-F 3 "" H 5510 2890 50  0001 C CNN
-	1    5510 2890
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4915 2775 4915 2845
 Wire Wire Line
@@ -1112,17 +1091,6 @@ F 1 "GNDA" H 760 8752 50  0000 C CNN
 F 2 "" H 755 8925 50  0001 C CNN
 F 3 "" H 755 8925 50  0001 C CNN
 	1    755  8925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper SW2
-U 1 1 6009C9A4
-P 3905 8465
-F 0 "SW2" H 3905 8750 50  0000 C CNN
-F 1 "SW_Push" H 3905 8659 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3905 8665 50  0001 C CNN
-F 3 "~" H 3905 8665 50  0001 C CNN
-	1    3905 8465
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1259,7 +1227,7 @@ MISO_R
 Text GLabel 2365 7425 2    50   Input ~ 0
 MOSI_R
 $Comp
-L yamanami_keyboard-rescue:+5VA-power-yamanami_keyboard-rescue #PWR044
+L power:+5VA #PWR044
 U 1 1 6009CA4A
 P 4255 9575
 F 0 "#PWR044" H 4255 9425 50  0001 C CNN
@@ -1312,7 +1280,7 @@ F 3 "" H 2800 9725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:R-Device-arch_keyboard-rescue R8
+L Device:R R8
 U 1 1 6009CA98
 P 2800 9540
 F 0 "R8" H 2870 9586 50  0000 L CNN
@@ -1434,7 +1402,7 @@ Wire Wire Line
 	5590 8015 5590 7950
 Connection ~ 5590 7950
 $Comp
-L yamanami_keyboard-rescue:GNDA-power-yamanami_keyboard-rescue #PWR038
+L power:GNDA #PWR038
 U 1 1 6009CB18
 P 5590 8330
 F 0 "#PWR038" H 5590 8080 50  0001 C CNN
@@ -1472,7 +1440,7 @@ Wire Wire Line
 Wire Wire Line
 	6190 8215 6190 8285
 $Comp
-L yamanami_keyboard-rescue:+5VA-power-yamanami_keyboard-rescue #PWR035
+L power:+5VA #PWR035
 U 1 1 6009CB45
 P 5590 7910
 F 0 "#PWR035" H 5590 7760 50  0001 C CNN
@@ -1712,7 +1680,7 @@ Connection ~ 9440 4690
 Text GLabel 1005 7225 0    50   Input ~ 0
 RESET_R
 $Comp
-L yamanami_keyboard-rescue:+5V-power-yamanami_keyboard-rescue #PWR08
+L power:+5V #PWR08
 U 1 1 5FBAA4E9
 P 5510 2450
 F 0 "#PWR08" H 5510 2300 50  0001 C CNN
@@ -1919,7 +1887,7 @@ Wire Wire Line
 Wire Wire Line
 	3730 4905 3730 4870
 $Comp
-L yamanami_keyboard-rescue:+5VA-power-yamanami_keyboard-rescue #PWR0101
+L power:+5VA #PWR0101
 U 1 1 5FF231DB
 P 3800 10405
 F 0 "#PWR0101" H 3800 10255 50  0001 C CNN
@@ -2110,7 +2078,7 @@ F 3 "~" H 6110 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L yamanami_keyboard-rescue:VBUS-power-yamanami_keyboard-rescue #PWR046
+L power:VBUS #PWR046
 U 1 1 5FC65B7B
 P 6110 2510
 F 0 "#PWR046" H 6110 2360 50  0001 C CNN
@@ -3387,4 +3355,37 @@ Text GLabel 2285 9125 2    50   Input ~ 0
 col2_R
 Text GLabel 2285 8825 2    50   Input ~ 0
 col0_R
+$Comp
+L Device:Jumper RST2
+U 1 1 6009C9A4
+P 3905 8465
+F 0 "RST2" H 3905 8750 50  0000 C CNN
+F 1 "RST_Jumper" H 3905 8659 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3905 8665 50  0001 C CNN
+F 3 "~" H 3905 8665 50  0001 C CNN
+	1    3905 8465
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FBFC252
+P 5660 4890
+F 0 "R3" V 5570 4890 50  0000 C CNN
+F 1 "5.1k" V 5655 4890 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5590 4890 50  0001 C CNN
+F 3 "~" H 5660 4890 50  0001 C CNN
+	1    5660 4890
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yamanami_keyboard-rescue:GND-power-arch_keyboard-rescue-yamanami_keyboard-rescue-yamanami_keyboard-rescue-yamanami_keyboard-rescue #PWR011
+U 1 1 5FBFE141
+P 5510 2890
+F 0 "#PWR011" H 5510 2640 50  0001 C CNN
+F 1 "GND" H 5515 2717 50  0000 C CNN
+F 2 "" H 5510 2890 50  0001 C CNN
+F 3 "" H 5510 2890 50  0001 C CNN
+	1    5510 2890
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
